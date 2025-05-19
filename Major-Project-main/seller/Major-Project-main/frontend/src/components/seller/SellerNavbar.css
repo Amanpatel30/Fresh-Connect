@@ -1,0 +1,1041 @@
+/* Modern, innovative sidebar design */
+.seller-navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 70px;
+  height: 100vh;
+  background: linear-gradient(180deg, #192841, #111827);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all content */
+  z-index: 1000;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-x: hidden;
+  overflow-y: hidden; /* Hide scrollbar */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.seller-navbar.collapsed {
+  width: 70px;
+  align-items: center;
+}
+
+/* Width for expanded state */
+.seller-navbar.expanded {
+  width: 240px;
+  align-items: flex-start;
+}
+
+/* Remove the hover zone that's causing right side space */
+.seller-navbar::after {
+  display: none;
+}
+
+/* Navigation Menu scroll container - allow scrolling within this container instead */
+.seller-navbar .MuiBox-root[sx*="overflowY: 'auto'"] {
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.seller-navbar .MuiBox-root[sx*="overflowY: 'auto'"]::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Remove any custom scrollbars */
+.seller-navbar::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.seller-navbar::-webkit-scrollbar-track {
+  display: none;
+}
+
+.seller-navbar::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Fix submenu styling for better hierarchy */
+.MuiCollapse-root {
+  width: 100% !important;
+}
+
+.MuiCollapse-root .MuiList-root {
+  width: 100% !important;
+  align-items: flex-start !important;
+}
+
+.MuiCollapse-root .MuiListItemButton-root {
+  padding-left: 20px !important;
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  margin: 4px 4px 4px 8px !important;
+  border-radius: 8px !important;
+  width: calc(100% - 16px) !important;
+  justify-content: flex-start !important;
+}
+
+.MuiCollapse-root .MuiListItemButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  transform: translateX(4px);
+}
+
+/* Expanded state navigation items alignment */
+.seller-navbar.expanded .MuiListItemButton-root {
+  justify-content: flex-start !important;
+  padding-left: 16px !important;
+}
+
+/* Mobile menu specific styles */
+@media (max-width: 600px) {
+  .MuiDrawer-paper .MuiList-root {
+    width: 100% !important;
+  }
+  
+  .MuiDrawer-paper .MuiListItem-root {
+    width: 100% !important;
+  }
+  
+  .MuiDrawer-paper .MuiCollapse-root,
+  .MuiDrawer-paper .MuiCollapse-root .MuiList-root {
+    width: 100% !important;
+  }
+}
+
+/* Adjust list container to properly center items */
+.seller-navbar .MuiList-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 8px 4px;
+}
+
+.seller-navbar.expanded .MuiList-root {
+  align-items: flex-start;
+}
+
+/* Ensure the box containing the lists takes full width */
+.seller-navbar .MuiBox-root[sx*="overflowY: 'auto'"] {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Override the active menu styles to prevent right overflow */
+.MuiListItemButton-root.Mui-selected::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: linear-gradient(to bottom, #4263eb, #6366f1);
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 0 8px rgba(66, 99, 235, 0.6);
+}
+
+/* Fix menu items in collapsed state */
+.seller-navbar.collapsed .MuiListItemButton-root {
+  justify-content: center;
+  padding: 12px 0 !important;
+  margin: 8px 6px !important;
+  border-radius: 12px !important;
+  width: calc(100% - 12px) !important;
+}
+
+/* Add a more precise hover state for better experience */
+.seller-navbar.collapsed .MuiListItemButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Fix any right side overflow in expanded state */
+.seller-navbar.expanded {
+  width: 240px;
+  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure the navigation container fits properly */
+.seller-navbar .MuiBox-root {
+  width: 100%;
+}
+
+/* Remove the hover zone - replaced with more standard functionality */
+.seller-navbar::after {
+  content: none;
+}
+
+/* Enhanced Navigation Item Styles */
+.MuiListItemButton-root {
+  transition: all 0.2s ease !important;
+  margin: 6px 0 !important; /* Increased margin for better spacing */
+  padding: 10px 12px !important;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px !important;
+}
+
+/* Create an innovative hover effect with background glow */
+.MuiListItemButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Enhanced active item styles */
+.MuiListItemButton-root.Mui-selected {
+  background-color: rgba(66, 99, 235, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.MuiListItemButton-root.Mui-selected::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: linear-gradient(to bottom, #4263eb, #6366f1);
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 0 8px rgba(66, 99, 235, 0.6);
+}
+
+/* Make icons look better with a subtle glow effect */
+.MuiListItemIcon-root {
+  min-width: 36px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Fix icon sizing */
+.MuiListItemIcon-root svg {
+  font-size: 22px !important;
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.3));
+  transition: transform 0.2s ease, filter 0.3s ease;
+}
+
+/* Add subtle animation to icons on hover */
+.MuiListItemButton-root:hover .MuiListItemIcon-root svg {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.5));
+}
+
+/* Fix menu item positioning for collapsed state with better spacing */
+.seller-navbar.collapsed .MuiListItemButton-root {
+  justify-content: center;
+  padding: 12px 10px !important;
+  margin: 8px 6px !important;
+  border-radius: 12px !important;
+}
+
+.seller-navbar.collapsed .MuiListItemIcon-root {
+  min-width: auto !important;
+  margin-right: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
+/* Improve menu text visibility with larger font */
+.seller-navbar.expanded .MuiListItemText-primary {
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.2px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Fix active item coloring with glow effect */
+.MuiListItemButton-root.Mui-selected .MuiListItemText-primary {
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(99, 102, 241, 0.3);
+}
+
+.MuiListItemButton-root.Mui-selected .MuiListItemIcon-root {
+  color: #4263eb !important;
+  filter: drop-shadow(0 0 3px rgba(66, 99, 235, 0.6));
+}
+
+/* Make logout button stand out with a gradient */
+.seller-navbar .MuiListItemButton-root[sx*="color: '#ef4444'"] {
+  margin-top: 12px !important;
+  background: linear-gradient(to right, rgba(239, 68, 68, 0.1), transparent) !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+}
+
+.seller-navbar .MuiListItemButton-root[sx*="color: '#ef4444'"]:hover {
+  background: linear-gradient(to right, rgba(239, 68, 68, 0.2), rgba(239, 68, 68, 0.05)) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.1);
+}
+
+.seller-navbar .MuiListItemButton-root[sx*="color: '#ef4444'"] .MuiListItemIcon-root {
+  color: #ef4444 !important;
+  filter: drop-shadow(0 0 3px rgba(239, 68, 68, 0.3));
+}
+
+.seller-navbar .MuiListItemButton-root[sx*="color: '#ef4444'"] .MuiListItemText-primary {
+  color: #ef4444 !important;
+  font-weight: 600 !important;
+}
+
+/* Badge with pulsing animation */
+.MuiListItemIcon-root .MuiBadge-badge,
+.seller-navbar .MuiBox-root[sx*="borderRadius: '50%'"] {
+  min-width: 18px;
+  height: 18px;
+  font-size: 0.7rem;
+  padding: 0 4px;
+  border-radius: 10px;
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+  100% { transform: scale(1); }
+}
+
+/* Improved mobile experience */
+@media (max-width: 600px) {
+  .seller-navbar {
+    width: 0;
+    transform: translateX(-100%);
+  }
+  
+  .seller-navbar.expanded {
+    width: 250px;
+    transform: translateX(0);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Better mobile drawer animation */
+  .seller-navbar {
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+                width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+  
+  /* Enhanced mobile menu items */
+  .seller-navbar.expanded .MuiListItemButton-root {
+    margin: 6px 0 !important;
+    padding: 10px 16px !important;
+  }
+}
+
+/* Tablet responsive adjustments */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .seller-navbar {
+    width: 60px;
+  }
+  
+  .seller-navbar.expanded {
+    width: 220px;
+  }
+}
+
+/* Mobile Styles - Improved */
+@media (max-width: 600px) {
+  .seller-navbar {
+    width: 0;
+    opacity: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(-100%);
+    box-shadow: none;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    visibility: hidden; /* Hide completely when collapsed on mobile */
+  }
+
+  .seller-navbar.expanded {
+    width: 220px;
+    opacity: 1;
+    transform: translateX(0);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    visibility: visible; /* Show when expanded */
+  }
+
+  .navbar-logo {
+    height: 60px;
+    margin-bottom: 8px;
+  }
+
+  .nav-list {
+    padding: 0 12px;
+    gap: 8px;
+    margin-bottom: 80px; /* Add space for bottom navigation */
+  }
+  
+  .seller-navbar.expanded .nav-list {
+    overflow-y: auto;
+    padding-bottom: 16px;
+  }
+
+  .nav-item {
+    min-height: 52px; /* Larger touch targets for mobile */
+    border-radius: 10px !important;
+    padding: 10px 18px !important;
+    margin-bottom: 4px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
+
+  .seller-navbar.expanded .nav-item {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Staggered animation for menu items */
+  .seller-navbar.expanded .nav-item:nth-child(1) { transition-delay: 0.05s; }
+  .seller-navbar.expanded .nav-item:nth-child(2) { transition-delay: 0.1s; }
+  .seller-navbar.expanded .nav-item:nth-child(3) { transition-delay: 0.15s; }
+  .seller-navbar.expanded .nav-item:nth-child(4) { transition-delay: 0.2s; }
+  .seller-navbar.expanded .nav-item:nth-child(5) { transition-delay: 0.25s; }
+  .seller-navbar.expanded .nav-item:nth-child(6) { transition-delay: 0.3s; }
+  .seller-navbar.expanded .nav-item:nth-child(7) { transition-delay: 0.35s; }
+  .seller-navbar.expanded .nav-item:nth-child(8) { transition-delay: 0.4s; }
+  .seller-navbar.expanded .nav-item:nth-child(9) { transition-delay: 0.45s; }
+  .seller-navbar.expanded .nav-item:nth-child(10) { transition-delay: 0.5s; }
+  .seller-navbar.expanded .nav-item:nth-child(11) { transition-delay: 0.55s; }
+
+  .nav-icon {
+    font-size: 22px !important;
+    margin-right: 16px !important;
+  }
+
+  .seller-navbar.expanded .nav-icon {
+    margin-right: 18px !important;
+  }
+
+  .nav-text {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
+
+  .seller-navbar.expanded .nav-text {
+    opacity: 1;
+    width: auto;
+    transform: translateX(0);
+    transition-delay: 0.2s;
+  }
+
+  .nav-badge {
+    top: -6px;
+    right: -6px;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+  }
+
+  .expand-icon {
+    margin-left: 4px;
+  }
+
+  .seller-navbar.expanded .expand-icon {
+    opacity: 1;
+  }
+
+  /* Mobile Toggle Button */
+  .mobile-toggle {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1200;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-toggle:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Mobile Overlay */
+  .mobile-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 999;
+    visibility: hidden;
+    transition: background-color 0.3s ease, visibility 0.3s ease;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+
+  .mobile-overlay.active {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    animation: fadeIn 0.3s forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
+
+/* Landscape mobile optimizations */
+@media (max-width: 900px) and (max-height: 500px) and (orientation: landscape) {
+  .seller-navbar {
+    width: 0;
+  }
+
+  .nav-item {
+    min-height: 42px;
+    padding: 6px 12px !important;
+  }
+
+  .nav-icon {
+    font-size: 18px !important;
+  }
+
+  .nav-text {
+    font-size: 13px;
+  }
+
+  .seller-navbar.expanded {
+    width: 240px;
+  }
+
+  /* Ensure scrolling works properly in landscape */
+  .seller-navbar.expanded .nav-list {
+    max-height: calc(100vh - 60px);
+  }
+
+  .seller-navbar.expanded .nav-item {
+    min-height: 40px;
+  }
+
+  .seller-navbar.expanded .navbar-logo {
+    height: 50px;
+  }
+}
+
+/* Improved touch interaction for mobile devices */
+@media (hover: none) {
+  .nav-item:hover {
+    transform: none;
+  }
+  
+  .nav-item:active {
+    transform: scale(0.98);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .submenu-item:hover {
+    transform: none;
+  }
+  
+  .submenu-item:active {
+    transform: scale(0.98);
+    background-color: rgba(255, 255, 255, 0.15) !important;
+  }
+}
+
+/* Improved mobile menu button animation */
+.mobile-toggle .menu-icon {
+  transition: transform 0.3s ease;
+}
+
+.mobile-toggle .menu-icon.open {
+  transform: rotate(90deg);
+}
+
+/* Improved animation for mobile menu appearance */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.seller-navbar.expanded {
+  animation: slide-in 0.3s forwards;
+}
+
+/* Improved focus states for accessibility */
+.nav-item:focus-visible,
+.submenu-item:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: -2px;
+}
+
+/* Add pulse animation to badges */
+.nav-badge {
+  animation: pulse 2s infinite;
+}
+
+/* SellerNavbar.css - Enhanced mobile responsive design */
+
+/* Base Sidebar Styles */
+.seller-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow-x: hidden;
+  z-index: 1000;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Base width for collapsed state */
+.seller-navbar.collapsed {
+  width: 70px;
+}
+
+/* Width for expanded state */
+.seller-navbar.expanded {
+  width: 240px;
+}
+
+/* Add a hover zone to prevent flickering when moving between sidebar and content */
+.seller-navbar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -20px; /* Creates a buffer zone outside the sidebar */
+  width: 20px;
+  height: 100%;
+  background: transparent;
+  z-index: 999;
+}
+
+/* Tablet responsive adjustments */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .seller-navbar.collapsed {
+    width: 60px;
+  }
+  
+  .seller-navbar.expanded {
+    width: 220px;
+  }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 600px) {
+  .seller-navbar {
+    transform: translateX(-100%);
+    width: 220px;
+  }
+  
+  .seller-navbar.expanded {
+    transform: translateX(0);
+  }
+}
+
+/* Enhanced Navigation Item Styles */
+.MuiListItemButton-root {
+  transition: all 0.2s ease;
+  margin: 3px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Create a subtle hover effect */
+.MuiListItemButton-root:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  animation: fadeIn 0.2s forwards;
+  border-radius: inherit;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Enhanced active item styles */
+.MuiListItemButton-root.Mui-selected {
+  position: relative;
+}
+
+.MuiListItemButton-root.Mui-selected::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: linear-gradient(to bottom, #4f46e5, #6366f1);
+  border-radius: 0 4px 4px 0;
+}
+
+/* Make icons look better */
+.MuiListItemIcon-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Make icons larger and more visible */
+.MuiListItemIcon-root svg {
+  font-size: 22px !important;
+  transition: transform 0.2s ease;
+}
+
+.MuiListItemButton-root:hover .MuiListItemIcon-root svg {
+  transform: scale(1.1);
+}
+
+/* Improve menu text visibility */
+.seller-navbar.expanded .MuiListItemText-primary {
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+  letter-spacing: 0.2px;
+}
+
+/* Fix active item coloring */
+.MuiListItemButton-root.Mui-selected .MuiListItemText-primary {
+  font-weight: 600 !important;
+}
+
+/* Fix submenu styling */
+.MuiCollapse-root .MuiListItemButton-root {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 4px 8px;
+}
+
+/* Ensure even spacing in the list */
+.MuiList-root {
+  padding: 8px 6px;
+}
+
+/* Tablet responsive adjustments */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .seller-navbar {
+    width: 60px;
+  }
+  
+  .seller-navbar.expanded {
+    width: 220px;
+  }
+}
+
+/* Fix badge display */
+.MuiListItemIcon-root .MuiBadge-badge {
+  min-width: 18px;
+  height: 18px;
+  font-size: 0.7rem;
+  padding: 0 4px;
+  border-radius: 10px;
+}
+
+/* Animate the sidebar expansion/collapse */
+.seller-navbar {
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.seller-navbar .MuiListItemText-root,
+.seller-navbar .MuiListItemIcon-root {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Make active items stand out */
+.MuiListItemButton-root.Mui-selected {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Make submenu items stand out with better typography */
+.MuiCollapse-root .MuiListItemText-primary {
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+}
+
+/* Add smooth submenu transition */
+.MuiCollapse-root {
+  transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Logo area with subtle glow */
+.seller-navbar .MuiBox-root:first-of-type {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  height: 64px !important;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Freshconnect text styling */
+.seller-navbar .MuiBox-root:first-of-type .MuiTypography-root {
+  color: #ffffff !important;
+  background: linear-gradient(to right, #fff, #a7f3d0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  font-weight: 700 !important;
+  letter-spacing: 0.5px;
+}
+
+/* Divider with glow */
+.seller-navbar .MuiBox-root[sx*="height: '1px'"] {
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent) !important;
+  height: 1px !important;
+  margin: 12px 0 !important;
+}
+
+/* Hide all scrollbars throughout the sidebar and its children */
+.seller-navbar *::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.seller-navbar * {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+/* Ensure the sidebar has no right-side space */
+.seller-navbar, 
+.seller-navbar.expanded, 
+.seller-navbar.collapsed {
+  box-sizing: border-box;
+  padding-right: 0;
+  margin-right: 0;
+  border-right: none;
+}
+
+/* Fix list and submenu items to prevent right overflow */
+.seller-navbar .MuiList-root {
+  padding-right: 0;
+}
+
+.seller-navbar .MuiListItem-root {
+  padding-right: 0;
+}
+
+/* Remove hover zones */
+.seller-navbar::after {
+  display: none;
+  content: none;
+}
+
+/* Leaf icon special effects */
+.seller-navbar .MuiSvgIcon-root[data-testid="EnergySavingsLeafIcon"] {
+  transition: all 0.3s ease;
+}
+
+.seller-navbar:hover .MuiSvgIcon-root[data-testid="EnergySavingsLeafIcon"] {
+  transform: rotate(15deg) scale(1.1);
+}
+
+/* Better hover behavior for submenus */
+.seller-navbar.expanded .MuiListItemButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+/* Add a longer timeout for the collapse transitions */
+.MuiCollapse-root {
+  transition: height 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Enhanced hover effect for submenu items */
+.MuiCollapse-root .MuiListItemButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  transform: translateX(4px);
+  transition: all 0.2s ease;
+}
+
+/* Fix vertical alignment in list items */
+.seller-navbar .MuiListItemButton-root {
+  display: flex;
+  align-items: center;
+}
+
+/* Fix the submenu item behavior on hover */
+.seller-navbar .MuiListItem-root {
+  position: relative;
+}
+
+/* Better hover state for menu items */
+.MuiListItem-root:hover > .MuiListItemButton-root {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+/* Ensure submenu items are properly positioned */
+.MuiCollapse-wrapperInner {
+  width: 100%;
+}
+
+/* Submenu animation improvements */
+.MuiCollapse-root.MuiCollapse-entered {
+  overflow: visible !important;
+}
+
+/* Give submenu items a distinct style */
+.MuiCollapse-root .MuiListItemButton-root {
+  padding-left: 24px !important;
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  margin: 4px 4px 4px 12px !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Enhanced hover animations for menu items */
+.seller-navbar .MuiListItemButton-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+/* Special animation for the expand/collapse icons */
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid="ExpandLessIcon"],
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid="ExpandMoreIcon"] {
+  transition: transform 0.3s ease-in-out;
+}
+
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid="ExpandMoreIcon"] {
+  transform: rotate(-90deg);
+}
+
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid="ExpandLessIcon"] {
+  transform: rotate(180deg);
+}
+
+/* Improve submenu icons and dropdown indicators */
+.rotating-icon {
+  animation: rotateGrow 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform-origin: center;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3));
+}
+
+@keyframes rotateGrow {
+  0% {
+    transform: rotate(0deg) scale(1);
+    filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
+  }
+  50% {
+    transform: rotate(90deg) scale(1.3);
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+  }
+  100% {
+    transform: rotate(180deg) scale(1.1);
+    filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3));
+  }
+}
+
+/* Add pulsing effect to vegetable icons */
+.MuiListItemButton-root:hover .MuiSvgIcon-root {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.3));
+  }
+}
+
+/* Enhance submenu item icon styling */
+.MuiCollapse-root .MuiListItemIcon-root {
+  min-width: 30px !important;
+  margin-right: 8px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MuiCollapse-root .MuiListItemIcon-root svg {
+  font-size: 18px !important;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.MuiCollapse-root .MuiListItemButton-root:hover .MuiListItemIcon-root svg {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.4));
+}
+
+/* Enhance the plant-themed dropdown icons */
+.MuiListItemButton-root .rotating-icon,
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid^="Filter"],
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid^="Nature"],
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid^="Grass"],
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid^="LocalFlorist"],
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid^="Spa"],
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid^="EnergySavingsLeaf"],
+.MuiListItemButton-root .MuiSvgIcon-root[data-testid^="Agriculture"] {
+  color: #4ade80 !important;
+  filter: drop-shadow(0 0 2px rgba(74, 222, 128, 0.4));
+  transition: all 0.3s ease;
+}
+
+/* Add hover animation to dropdown icons */
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid^="Filter"],
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid^="Nature"],
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid^="Grass"],
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid^="LocalFlorist"],
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid^="Spa"],
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid^="EnergySavingsLeaf"],
+.MuiListItemButton-root:hover .MuiSvgIcon-root[data-testid^="Agriculture"] {
+  transform: scale(1.2) rotate(15deg);
+  filter: drop-shadow(0 0 3px rgba(74, 222, 128, 0.6));
+}
+
+/* Custom styling for different menu items based on color */
+.MuiListItemButton-root.Mui-selected .MuiSvgIcon-root[data-testid^="Filter"],
+.MuiListItemButton-root.Mui-selected .MuiSvgIcon-root[data-testid^="Nature"],
+.MuiListItemButton-root.Mui-selected .MuiSvgIcon-root[data-testid^="Grass"],
+.MuiListItemButton-root.Mui-selected .MuiSvgIcon-root[data-testid^="LocalFlorist"],
+.MuiListItemButton-root.Mui-selected .MuiSvgIcon-root[data-testid^="Spa"],
+.MuiListItemButton-root.Mui-selected .MuiSvgIcon-root[data-testid^="EnergySavingsLeaf"],
+.MuiListItemButton-root.Mui-selected .MuiSvgIcon-root[data-testid^="Agriculture"] {
+  filter: drop-shadow(0 0 4px rgba(74, 222, 128, 0.8));
+}

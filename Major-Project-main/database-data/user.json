@@ -1,0 +1,371 @@
+[{
+  "_id": {
+    "$oid": "67cbd0c432ed9e5ff79e0b45"
+  },
+  "name": "Hi Lasun",
+  "email": "king@ymail.com",
+  "password": "$2a$10$TE/hGC3I8jARbd6fmCK.XOwx3aD46Qnsd3yvg90H/VDbqFhS0pj5i",
+  "phone": "9856232563",
+  "role": "user",
+  "isVerified": false,
+  "documents": {
+    "gst": {
+      "status": "pending"
+    },
+    "pan": {
+      "status": "pending"
+    },
+    "fssai": {
+      "status": "pending"
+    },
+    "shopLicense": {
+      "status": "pending"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-03-08T05:08:20.438Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T05:08:20.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "name": "Jane Smith",
+  "email": "jane@example.com",
+  "password": "$2a$10$nWwWWVF8w1dj379HxFoaouFh4ljtMpZr66XMf5E3KWMGXsJQFr/6e",
+  "phone": "2345678901",
+  "role": "seller",
+  "address": {
+    "street": "456 Oak St",
+    "city": "Example City",
+    "state": "Example State",
+    "postalCode": "12345",
+    "country": "Example Country"
+  },
+  "isVerified": false,
+  "documents": {
+    "gst": {
+      "status": "pending"
+    },
+    "pan": {
+      "status": "pending"
+    },
+    "fssai": {
+      "status": "pending"
+    },
+    "shopLicense": {
+      "status": "pending"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-03-09T20:18:02.699Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:02.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77a07c68d25d08bbc07"
+  },
+  "name": "Mike Johnson",
+  "email": "mike@example.com",
+  "password": "$2a$10$gEfB3RVpfE0Xc.IS.PEI/.zgQ6tBfAMdaPD4Nu2aG8tMVdAEFSzYa",
+  "phone": "3456789012",
+  "role": "seller",
+  "address": {
+    "street": "789 Pine St",
+    "city": "Example City",
+    "state": "Example State",
+    "postalCode": "12345",
+    "country": "Example Country"
+  },
+  "isVerified": false,
+  "documents": {
+    "gst": {
+      "status": "pending"
+    },
+    "pan": {
+      "status": "pending"
+    },
+    "fssai": {
+      "status": "pending"
+    },
+    "shopLicense": {
+      "status": "pending"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-03-09T20:18:02.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:02.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77a07c68d25d08bbc08"
+  },
+  "name": "Sarah Wilson",
+  "email": "sarah@example.com",
+  "password": "$2a$10$MO/qj/K4t33hp0Ft1ZUaC.H62AwFnXBdBHC14IdjiFLgi86pAYwYy",
+  "phone": "4567890123",
+  "role": "seller",
+  "address": {
+    "street": "321 Elm St",
+    "city": "Example City",
+    "state": "Example State",
+    "postalCode": "12345",
+    "country": "Example Country"
+  },
+  "isVerified": false,
+  "documents": {
+    "gst": {
+      "status": "pending"
+    },
+    "pan": {
+      "status": "pending"
+    },
+    "fssai": {
+      "status": "pending"
+    },
+    "shopLicense": {
+      "status": "pending"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-03-09T20:18:02.701Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:02.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77a07c68d25d08bbc09"
+  },
+  "name": "Tom Brown",
+  "email": "tom@example.com",
+  "password": "$2a$10$KMbfTeQgzAW/OCkAE5h81eZx8nzEeDsErYsMfuiZkWV//dwivw5uK",
+  "phone": "5678901234",
+  "role": "seller",
+  "address": {
+    "street": "654 Maple St",
+    "city": "Example City",
+    "state": "Example State",
+    "postalCode": "12345",
+    "country": "Example Country"
+  },
+  "isVerified": false,
+  "documents": {
+    "gst": {
+      "status": "pending"
+    },
+    "pan": {
+      "status": "pending"
+    },
+    "fssai": {
+      "status": "pending"
+    },
+    "shopLicense": {
+      "status": "pending"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-03-09T20:18:02.701Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:02.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77a07c68d25d08bbc05"
+  },
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "$2a$10$IbUsmqAu1JkC4IwB4vPTruSjqiisoRIOuKfM4UmRybo73pToUAzy2",
+  "phone": "1234567890",
+  "role": "seller",
+  "address": {
+    "street": "123 Main St",
+    "city": "Example City",
+    "state": "Example State",
+    "postalCode": "12345",
+    "country": "Example Country"
+  },
+  "isVerified": false,
+  "documents": {
+    "gst": {
+      "status": "pending"
+    },
+    "pan": {
+      "status": "pending"
+    },
+    "fssai": {
+      "status": "pending"
+    },
+    "shopLicense": {
+      "status": "pending"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-03-09T20:18:02.697Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:02.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d6adaa75e13bb7d545391b"
+  },
+  "name": "Aman AsUser",
+  "email": "amanasuser@gmail.com",
+  "password": "$2a$10$WTkNMLDHgOEbeY/C/hpRMu4l5jyBsuw9Tl3FAbdFJ0LQC/p5ikPWe",
+  "phone": "9978355810",
+  "role": "user",
+  "avatar": "https://via.placeholder.com/150",
+  "notificationSettings": {
+    "emailNotifications": true,
+    "orderUpdates": true,
+    "promotions": false,
+    "appNotifications": true,
+    "urgentSales": true,
+    "freeFood": true
+  },
+  "isVerified": false,
+  "documents": {
+    "gst": {
+      "status": "pending"
+    },
+    "pan": {
+      "status": "pending"
+    },
+    "fssai": {
+      "status": "pending"
+    },
+    "shopLicense": {
+      "status": "pending"
+    }
+  },
+  "addresses": [],
+  "paymentMethods": [],
+  "createdAt": {
+    "$date": "2025-03-16T10:53:30.141Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T10:53:30.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d6adfa75e13bb7d545391f"
+  },
+  "name": "Aman",
+  "email": "user@gmail.com",
+  "password": "$2a$10$p0fC/FlIA8.F5vWou0umtOo4cri0PzsbvJRz5V9IqKFNrefC/6yXC",
+  "phone": "9978355810",
+  "role": "user",
+  "avatar": "http://localhost:5001/api/products/image/file/image-1742189481881-367625638.png",
+  "notificationSettings": {
+    "emailNotifications": true,
+    "orderUpdates": true,
+    "promotions": false,
+    "appNotifications": true,
+    "urgentSales": true,
+    "freeFood": true
+  },
+  "isVerified": false,
+  "documents": {
+    "gst": {
+      "status": "pending"
+    },
+    "pan": {
+      "status": "pending"
+    },
+    "fssai": {
+      "status": "pending"
+    },
+    "shopLicense": {
+      "status": "pending"
+    }
+  },
+  "addresses": [],
+  "paymentMethods": [],
+  "createdAt": {
+    "$date": "2025-03-16T10:54:50.741Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-17T05:31:22.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d7bc5b7833ae4cea2668f5"
+  },
+  "name": "Aman Patel",
+  "email": "aman@gmail.comm",
+  "password": "$2a$10$QRyPC5z2jUb.FtKanRC8O.KRCLeHIXdhp9oA3WuOcoVZ7pDYqv8ie",
+  "phone": "9978355810",
+  "role": "user",
+  "avatar": "https://via.placeholder.com/150",
+  "notificationSettings": {
+    "emailNotifications": true,
+    "orderUpdates": true,
+    "promotions": false,
+    "appNotifications": true,
+    "urgentSales": true,
+    "freeFood": true
+  },
+  "wishlist": [],
+  "addresses": [],
+  "paymentMethods": [],
+  "createdAt": {
+    "$date": "2025-03-17T06:08:27.099Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-17T06:08:27.119Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d7bc7f7833ae4cea2668f9"
+  },
+  "name": "Aman Patel",
+  "email": "aman@gmail.com",
+  "password": "$2a$10$46Xqx5aU6i.cyvQ.t5CSP.HXUxV.JJHI24K5nxDRoFMl/TSv7oT4.",
+  "phone": "9978355810",
+  "role": "user",
+  "avatar": "https://via.placeholder.com/150",
+  "notificationSettings": {
+    "emailNotifications": true,
+    "orderUpdates": true,
+    "promotions": false,
+    "appNotifications": true,
+    "urgentSales": true,
+    "freeFood": true
+  },
+  "wishlist": [],
+  "addresses": [],
+  "paymentMethods": [],
+  "createdAt": {
+    "$date": "2025-03-17T06:09:03.461Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-17T06:09:03.463Z"
+  },
+  "__v": 0
+}]

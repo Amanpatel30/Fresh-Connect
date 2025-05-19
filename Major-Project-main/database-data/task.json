@@ -1,0 +1,175 @@
+[{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc64"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc0f"
+  },
+  "title": "Monthly Inventory Check",
+  "description": "Perform complete inventory check and update stock levels",
+  "status": "Pending",
+  "priority": "High",
+  "dueDate": {
+    "$date": "2025-03-16T20:18:03.676Z"
+  },
+  "assignedTo": "Head Chef",
+  "category": "Inventory",
+  "progress": 0,
+  "notes": "Focus on perishable items and update minimum stock levels",
+  "attachments": [
+    {
+      "name": "Inventory Checklist",
+      "url": "https://example.com/checklist.pdf",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc65"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc6a"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc12"
+  },
+  "title": "Monthly Inventory Check",
+  "description": "Perform complete inventory check and update stock levels",
+  "status": "Pending",
+  "priority": "High",
+  "dueDate": {
+    "$date": "2025-03-16T20:18:03.678Z"
+  },
+  "assignedTo": "Head Chef",
+  "category": "Inventory",
+  "progress": 0,
+  "notes": "Focus on perishable items and update minimum stock levels",
+  "attachments": [
+    {
+      "name": "Inventory Checklist",
+      "url": "https://example.com/checklist.pdf",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc6b"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc6c"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc13"
+  },
+  "title": "Monthly Inventory Check",
+  "description": "Perform complete inventory check and update stock levels",
+  "status": "Pending",
+  "priority": "High",
+  "dueDate": {
+    "$date": "2025-03-16T20:18:03.679Z"
+  },
+  "assignedTo": "Head Chef",
+  "category": "Inventory",
+  "progress": 0,
+  "notes": "Focus on perishable items and update minimum stock levels",
+  "attachments": [
+    {
+      "name": "Inventory Checklist",
+      "url": "https://example.com/checklist.pdf",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc6d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc66"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc10"
+  },
+  "title": "Monthly Inventory Check",
+  "description": "Perform complete inventory check and update stock levels",
+  "status": "Pending",
+  "priority": "High",
+  "dueDate": {
+    "$date": "2025-03-16T20:18:03.677Z"
+  },
+  "assignedTo": "Head Chef",
+  "category": "Inventory",
+  "progress": 0,
+  "notes": "Focus on perishable items and update minimum stock levels",
+  "attachments": [
+    {
+      "name": "Inventory Checklist",
+      "url": "https://example.com/checklist.pdf",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc67"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc68"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc11"
+  },
+  "title": "Monthly Inventory Check",
+  "description": "Perform complete inventory check and update stock levels",
+  "status": "Pending",
+  "priority": "High",
+  "dueDate": {
+    "$date": "2025-03-16T20:18:03.678Z"
+  },
+  "assignedTo": "Head Chef",
+  "category": "Inventory",
+  "progress": 0,
+  "notes": "Focus on perishable items and update minimum stock levels",
+  "attachments": [
+    {
+      "name": "Inventory Checklist",
+      "url": "https://example.com/checklist.pdf",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc69"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "__v": 0
+}]

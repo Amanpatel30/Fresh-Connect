@@ -1,0 +1,190 @@
+[{
+  "_id": {
+    "$oid": "67d0c953f8b98b8b3e8c3a92"
+  },
+  "user": {
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  "rating": 4,
+  "comment": "The food was delicious and arrived promptly. The packaging was good too.",
+  "createdAt": {
+    "$date": "2025-03-09T23:37:55.261Z"
+  },
+  "status": "pending",
+  "response": null,
+  "hotel": {
+    "$oid": "67cdf77a07c68d25d08bbc05"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0c953f8b98b8b3e8c3a93"
+  },
+  "user": {
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com"
+  },
+  "rating": 5,
+  "comment": "Excellent service and fantastic food quality. Will definitely order again!",
+  "createdAt": {
+    "$date": "2025-03-06T23:37:55.261Z"
+  },
+  "status": "responded",
+  "response": {
+    "text": "Thank you for your kind words! We look forward to serving you again.",
+    "date": {
+      "$date": "2025-03-07T23:37:55.261Z"
+    }
+  },
+  "hotel": {
+    "$oid": "64f5e30c1032b1ddfa41b3e5"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0c953f8b98b8b3e8c3a94"
+  },
+  "user": {
+    "name": "Mike Johnson",
+    "email": "mike.johnson@example.com"
+  },
+  "rating": 3,
+  "comment": "Food was good but delivery was a bit late. Hope this improves next time.",
+  "createdAt": {
+    "$date": "2025-03-08T23:37:55.261Z"
+  },
+  "status": "pending",
+  "response": null,
+  "hotel": {
+    "$oid": "64f5e30c1032b1ddfa41b3e5"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0c953f8b98b8b3e8c3a95"
+  },
+  "user": {
+    "name": "Sarah Williams",
+    "email": "sarah.w@example.com"
+  },
+  "rating": 2,
+  "comment": "The food was cold when it arrived and missing items from my order.",
+  "createdAt": {
+    "$date": "2025-03-10T23:37:55.261Z"
+  },
+  "status": "resolved",
+  "response": {
+    "text": "We sincerely apologize for the issues with your order. We've credited your account with a discount for your next purchase.",
+    "date": {
+      "$date": "2025-03-11T11:37:55.261Z"
+    }
+  },
+  "hotel": {
+    "$oid": "64f5e30c1032b1ddfa41b3e5"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0c984f8b98b8b3e8c3a96"
+  },
+  "user": {
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  "rating": 4,
+  "comment": "The food was delicious and arrived promptly. The packaging was good too.",
+  "createdAt": {
+    "$date": "2025-03-09T23:38:44.416Z"
+  },
+  "status": "resolved",
+  "response": null,
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "__v": 1,
+  "categories": [],
+  "isPublic": true,
+  "updatedAt": {
+    "$date": "2025-03-16T07:45:04.655Z"
+  },
+  "verified": false
+},
+{
+  "_id": {
+    "$oid": "67d0c984f8b98b8b3e8c3a97"
+  },
+  "user": {
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com"
+  },
+  "rating": 5,
+  "comment": "Excellent service and fantastic food quality. Will definitely order again!",
+  "createdAt": {
+    "$date": "2025-03-06T23:38:44.416Z"
+  },
+  "status": "responded",
+  "response": {
+    "text": "Thank you for your kind words! We look forward to serving you again.",
+    "date": {
+      "$date": "2025-03-07T23:38:44.416Z"
+    }
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0c984f8b98b8b3e8c3a98"
+  },
+  "user": {
+    "name": "Mike Johnson",
+    "email": "mike.johnson@example.com"
+  },
+  "rating": 3,
+  "comment": "Food was good but delivery was a bit late. Hope this improves next time.",
+  "createdAt": {
+    "$date": "2025-03-08T23:38:44.416Z"
+  },
+  "status": "responded",
+  "response": null,
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "__v": 1,
+  "categories": [],
+  "isPublic": true,
+  "reply": "ok",
+  "replyDate": {
+    "$date": "2025-03-16T07:52:37.072Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T07:52:37.079Z"
+  },
+  "verified": false
+},
+{
+  "_id": {
+    "$oid": "67d0c984f8b98b8b3e8c3a99"
+  },
+  "user": {
+    "name": "Sarah Williams",
+    "email": "sarah.w@example.com"
+  },
+  "rating": 2,
+  "comment": "The food was cold when it arrived and missing items from my order.",
+  "createdAt": {
+    "$date": "2025-03-10T23:38:44.416Z"
+  },
+  "status": "resolved",
+  "response": {
+    "text": "We sincerely apologize for the issues with your order. We've credited your account with a discount for your next purchase.",
+    "date": {
+      "$date": "2025-03-11T11:38:44.416Z"
+    }
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  }
+}]

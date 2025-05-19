@@ -1,0 +1,299 @@
+/* ProductSearch.css */
+
+.products-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.products-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.search-bar {
+  margin-top: 24px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products-content {
+  margin-top: 32px;
+}
+
+.filters-column {
+  position: sticky;
+  top: 24px;
+  height: fit-content;
+}
+
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow-up {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
+
+.arrow-down {
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+
+.filters-content {
+  margin-top: 16px;
+}
+
+.filter-collapse {
+  background: transparent;
+}
+
+.checkbox-group {
+  width: 100%;
+}
+
+.price-slider {
+  padding: 8px 0;
+}
+
+.price-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.price-inputs .ant-input-number {
+  width: 100px;
+}
+
+.clear-filters-btn {
+  margin-top: 16px;
+}
+
+.products-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.view-sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.view-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.product-card-container {
+  margin-bottom: 16px;
+}
+
+.product-card {
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.product-img-container {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.05);
+}
+
+.urgent-badge {
+  z-index: 2;
+}
+
+.organic-badge {
+  z-index: 2;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff4d4f;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  z-index: 2;
+}
+
+.wishlist-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+}
+
+.wishlist-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s;
+}
+
+.wishlist-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+.heart-filled {
+  color: #ff4d4f;
+}
+
+.product-category {
+  margin-bottom: 12px;
+}
+
+.product-title {
+  margin-bottom: 12px;
+  height: 44px;
+  overflow: hidden;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.discount-price {
+  color: #ff4d4f;
+  font-size: 16px;
+}
+
+.original-price {
+  font-size: 14px;
+}
+
+.regular-price {
+  font-size: 16px;
+  color: #1890ff;
+}
+
+.product-seller {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.product-stock {
+  font-size: 12px;
+}
+
+.add-to-cart-btn {
+  transition: all 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  transform: translateY(-2px);
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  gap: 16px;
+}
+
+.loading-text {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .filters-column {
+    position: static;
+    margin-bottom: 24px;
+  }
+  
+  .products-toolbar {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .view-sort-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+/* List view styles */
+.products-list .product-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.products-list .product-img-container {
+  width: 200px;
+  height: 200px;
+}
+
+.products-list .ant-card-body {
+  flex: 1;
+}
+
+.products-list .ant-card-actions {
+  width: 150px;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .products-list .product-card {
+    flex-direction: column;
+  }
+  
+  .products-list .product-img-container {
+    width: 100%;
+  }
+  
+  .products-list .ant-card-actions {
+    width: 100%;
+  }
+} 

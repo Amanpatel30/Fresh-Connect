@@ -1,0 +1,217 @@
+[{
+  "_id": {
+    "$oid": "67ce12b96cf2eb9806ea8719"
+  },
+  "name": "aman@123",
+  "email": "abc@gmail.com",
+  "password": "$2a$10$Zk.EjEU2DVr1balVw/8Touc/YrtrQrfJgeF3bR2PslUcBBP7Yqom2",
+  "address": {
+    "street": "aman@123",
+    "city": "Default City",
+    "state": "Default State",
+    "zipCode": "12345",
+    "country": "Default Country"
+  },
+  "phone": "09979623967",
+  "description": "",
+  "logo": "",
+  "coverImage": "",
+  "isVerified": false,
+  "rating": 0,
+  "numReviews": 0,
+  "verificationDocuments": [],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-09T22:14:17.384Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T22:14:17.384Z"
+  },
+  "__v": 0,
+  "isHotel": true,
+  "role": "hotel"
+},
+{
+  "_id": {
+    "$oid": "67ce705490e8968482d26ba9"
+  },
+  "name": "NA",
+  "email": "aman@gmail.com",
+  "password": "$2a$10$MtYhJP3yTc.QEnz/EEbv8eZB4UOsB1GS1h913Ph1tNbC.1HawdCcO",
+  "address": {
+    "street": "NA",
+    "city": "Default City",
+    "state": "Default State",
+    "zipCode": "12345",
+    "country": "Default Country"
+  },
+  "phone": "9856232563",
+  "description": "",
+  "logo": "",
+  "coverImage": "",
+  "isVerified": false,
+  "rating": 0,
+  "numReviews": 0,
+  "verificationDocuments": [],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-10T04:53:40.854Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T04:53:40.854Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ce729abd8a6a62a850a04c"
+  },
+  "name": "aman@123",
+  "email": "aman1@gmail.com",
+  "password": "$2a$10$FJna0AyUXH17kGw1GA3NLeCgoBspISbSeWbm77hWjX0iy3lTeq87a",
+  "ownerName": "Aman",
+  "address": {
+    "street": "aman@123",
+    "city": "Default City",
+    "state": "Default State",
+    "zipCode": "12345",
+    "country": "Default Country"
+  },
+  "phone": "9856232563",
+  "description": "",
+  "logo": "",
+  "coverImage": "",
+  "isVerified": false,
+  "rating": 0,
+  "numReviews": 0,
+  "verificationDocuments": [],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-10T05:03:22.268Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T05:03:22.268Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ce78032ea1b138d66130fa"
+  },
+  "name": "Grand Plaza Hotel",
+  "email": "manager@grandplaza.com",
+  "password": "$2a$10$X7RFJyVP6wCQnt5zjm3uY.LpYUjqTHXmP5YHKWLGsY8.hBBEVeBJu",
+  "ownerName": "John Peterson",
+  "address": {
+    "street": "123 Main Street",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "zipCode": "400001",
+    "country": "India"
+  },
+  "phone": "9876543210",
+  "description": "A luxury hotel in the heart of the city",
+  "logo": "https://marketplace.canva.com/EAFpeiTrl4c/2/0/1600w/canva-abstract-chef-cooking-restaurant-free-logo-a1RYzvS1EFo.jpg",
+  "coverImage": "https://lesroches.edu/wp-content/uploads/2022/08/Restaurant_business_plan_main.jpg",
+  "isVerified": true,
+  "rating": 4.8,
+  "numReviews": 250
+},
+{
+  "_id": {
+    "$oid": "67ce821f3936bc456517fb90"
+  },
+  "name": "aman@123",
+  "email": "aman2@gmail.com",
+  "password": "$2a$10$fLoGSDxAZNpxdiz7Hq1/quzCmE.oOfVO8NkD97uzactwvJtEBs03K",
+  "ownerName": "aman",
+  "address": {
+    "street": "aman@123",
+    "city": "Default City",
+    "state": "Default State",
+    "zipCode": "12345",
+    "country": "Default Country"
+  },
+  "phone": "9856232563",
+  "description": "",
+  "logo": "",
+  "coverImage": "",
+  "isVerified": false,
+  "rating": 0,
+  "numReviews": 0,
+  "verificationDocuments": [],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-10T06:09:35.304Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T06:09:35.304Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "NA",
+  "email": "aman21@gmail.com",
+  "password": "$2a$10$UYLlukmemIUhB8GAfhUS4.UmpbMximg2X6/4m5MKHDel7PCqVEHP.",
+  "ownerName": "aman",
+  "address": {
+    "street": "NA",
+    "city": "Default City",
+    "state": "Default State",
+    "zipCode": "12345",
+    "country": "Default Country"
+  },
+  "phone": "9856232563",
+  "description": "",
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvJtGNk6Cxaqeq-2-xb_sfz3Jt120cqyxhQ&s",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXacuom7tPB_vcHcGdGFDLIosH_xLXpB-_Ng&s",
+  "isVerified": true,
+  "rating": 0,
+  "numReviews": 0,
+  "verificationDocuments": [],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-10T06:17:10.546Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T06:51:36.438Z"
+  },
+  "__v": 0,
+  "role": "hotel"
+},
+{
+  "_id": {
+    "$oid": "67d1fc41a175469226381d4b"
+  },
+  "name": "Test Hotel",
+  "email": "hotel1@example.com",
+  "password": "$2a$10$GD8cnh0GAmkNDPYQS7m0AOsFDJuTk.KB.5ZpdsKODsQBBcCb3/1xy",
+  "role": "hotel",
+  "ownerName": "Test Owner",
+  "address": {
+    "street": "123 Test Street",
+    "city": "Test City",
+    "state": "Test State",
+    "zipCode": "12345",
+    "country": "Test Country"
+  },
+  "phone": "1234567890",
+  "description": "",
+  "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fast-food-restaurant-logo%2C-restaurant-logo-design-template-33255790cb8e1186b28609dd9afd4ee6_screen.jpg?ts=1668794604",
+  "coverImage": "https://www.tinbuilding.com/wp-content/uploads/2024/09/download-6-scaled-920x518.webp",
+  "isVerified": true,
+  "rating": 0,
+  "numReviews": 0,
+  "verificationDocuments": [],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-03-12T21:27:29.615Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T21:29:31.934Z"
+  },
+  "__v": 0
+}]

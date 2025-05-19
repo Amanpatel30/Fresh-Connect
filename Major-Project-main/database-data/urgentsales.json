@@ -1,0 +1,737 @@
+[{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc6e"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc19"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.680Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.681Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc71"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc1c"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.682Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc72"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc1d"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.682Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc6f"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc1a"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.681Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc70"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc1b"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.682Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0b90626f4d9d4f8b1d7e9"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Butter Chicken",
+  "originalPrice": 350,
+  "discountedPrice": 245,
+  "stock": 15,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:28:22.543Z"
+  },
+  "description": "Tender chicken in a creamy tomato sauce - limited time offer!",
+  "image": "https://via.placeholder.com/300x180?text=Butter+Chicken",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:28:22.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0b90626f4d9d4f8b1d7ea"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Paneer Tikka",
+  "originalPrice": 280,
+  "discountedPrice": 196,
+  "stock": 20,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:28:22.543Z"
+  },
+  "description": "Chunks of paneer marinated and grilled - save 30% today only!",
+  "image": "https://via.placeholder.com/300x180?text=Paneer+Tikka",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:28:22.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0b90626f4d9d4f8b1d7eb"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Vegetable Biryani",
+  "originalPrice": 240,
+  "discountedPrice": 168,
+  "stock": 18,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:28:22.543Z"
+  },
+  "description": "Fragrant rice dish with mixed vegetables - hurry before it's gone!",
+  "image": "https://via.placeholder.com/300x180?text=Veg+Biryani",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:28:22.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0b9c563c735d8b650d3ba"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Butter Chicken",
+  "originalPrice": 350,
+  "discountedPrice": 245,
+  "stock": 15,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:31:33.675Z"
+  },
+  "description": "Tender chicken in a creamy tomato sauce - limited time offer!",
+  "image": "https://via.placeholder.com/300x180?text=Butter+Chicken",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:31:33.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T22:31:33.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0b9c563c735d8b650d3bb"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Paneer TikkaAaaaaaaa",
+  "originalPrice": 280,
+  "discountedPrice": 191,
+  "stock": 20,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-19T06:01:00.000Z"
+  },
+  "description": "Chunks of paneer marinated and grilled - save 30% today only!",
+  "image": "https://via.placeholder.com/300x180?text=Paneer+Tikka",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:31:33.676Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T22:31:33.676Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0b9c563c735d8b650d3bc"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Vegetable Biryani",
+  "originalPrice": 240,
+  "discountedPrice": 168,
+  "stock": 18,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:31:33.676Z"
+  },
+  "description": "Fragrant rice dish with mixed vegetables - hurry before it's gone!",
+  "image": "https://via.placeholder.com/300x180?text=Veg+Biryani",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:31:33.676Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T22:31:33.676Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d5d6a411161617b0f608e6"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Butter Chicken",
+  "originalPrice": 320,
+  "discountedPrice": 21,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": {
+    "$date": "2025-03-16T14:06:00.000Z"
+  },
+  "description": "Tender chicken pieces simmered in a rich tomato and butter gravy with Indian spices.",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": null
+},
+{
+  "_id": {
+    "$oid": "67d5d6d411161617b0f60918"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Masala Dosa",
+  "originalPrice": 120,
+  "discountedPrice": 96,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T19:36:51.980Z",
+  "description": "Crispy rice crepe filled with spiced potato filling, served with sambhar and chutney.",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d0ce65f8b98b8b3e8c3aab"
+},
+{
+  "_id": {
+    "$oid": "67d5d75d11161617b0f6098f"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "nwe",
+  "originalPrice": 32,
+  "discountedPrice": 25.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T19:39:08.989Z",
+  "description": "nothing",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5c79869c8ae5dd1e4b936"
+},
+{
+  "_id": {
+    "$oid": "67d5d7d211161617b0f60a46"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Masala Dosa",
+  "originalPrice": 120,
+  "discountedPrice": 2,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T19:41:05.799Z",
+  "description": "Crispy rice crepe filled with spiced potato filling, served with sambhar and chutney.",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d0ce65f8b98b8b3e8c3aab"
+},
+{
+  "_id": {
+    "$oid": "67d5d8db11161617b0f60a9c"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Masala Dosa",
+  "originalPrice": 120,
+  "discountedPrice": 0.1,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": {
+    "$date": "2025-03-16T14:15:00.000Z"
+  },
+  "description": "Crispy rice crepe filled with spiced potato filling, served with sambhar and chutney.",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": null
+},
+{
+  "_id": {
+    "$oid": "67d5da4011161617b0f60b29"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "nwe",
+  "originalPrice": 32,
+  "discountedPrice": 25.6,
+  "stock": 12,
+  "unit": "plate",
+  "expiryDate": {
+    "$date": "2025-03-16T14:21:00.000Z"
+  },
+  "description": "nothing",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": null
+},
+{
+  "_id": {
+    "$oid": "67d5dabc87ae3ca55af8602e"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "nwe",
+  "originalPrice": 32,
+  "discountedPrice": 25.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T19:53:31.695Z",
+  "description": "nothing",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5c79869c8ae5dd1e4b936"
+},
+{
+  "_id": {
+    "$oid": "67d5dc1587ae3ca55af860f5"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dszdcszc",
+  "originalPrice": 232,
+  "discountedPrice": 185.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T19:59:17.291Z",
+  "description": "edswjnk",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5dbeb87ae3ca55af860b4"
+},
+{
+  "_id": {
+    "$oid": "67d5dc1887ae3ca55af86105"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dszdcszc",
+  "originalPrice": 232,
+  "discountedPrice": 185.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T19:59:20.383Z",
+  "description": "edswjnk",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5dbeb87ae3ca55af860b4"
+},
+{
+  "_id": {
+    "$oid": "67d5dc1a87ae3ca55af86115"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dszdcszc",
+  "originalPrice": 232,
+  "discountedPrice": 185.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T19:59:22.578Z",
+  "description": "edswjnk",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5dbeb87ae3ca55af860b4"
+},
+{
+  "_id": {
+    "$oid": "67d5dc1c87ae3ca55af86125"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dszdcszc",
+  "originalPrice": 232,
+  "discountedPrice": 185.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T19:59:24.628Z",
+  "description": "edswjnk",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5dbeb87ae3ca55af860b4"
+},
+{
+  "_id": {
+    "$oid": "67d5e1b22e7ebcb86aab21c3"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "3wdw",
+  "originalPrice": 3,
+  "discountedPrice": 2.4,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T20:23:13.422Z",
+  "description": "wdw3d",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5e18d2e7ebcb86aab21ac"
+},
+{
+  "_id": {
+    "$oid": "67d5e2bd2e7ebcb86aab2218"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "sewfw",
+  "originalPrice": 32,
+  "discountedPrice": 25.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T20:27:40.567Z",
+  "description": "wf",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5e2b72e7ebcb86aab2207"
+},
+{
+  "_id": {
+    "$oid": "67d5e2d22e7ebcb86aab2254"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "sewfw",
+  "originalPrice": 32,
+  "discountedPrice": 25.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T20:28:01.881Z",
+  "description": "wf",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5e2b72e7ebcb86aab2207",
+  "createdAt": {
+    "$date": "2025-03-16T07:29:28.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T07:29:28.310Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d5e405332ee4bde265f549"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "sewfw",
+  "originalPrice": 32,
+  "discountedPrice": 25.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T20:33:08.943Z",
+  "description": "wf",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5e2b72e7ebcb86aab2207"
+},
+{
+  "_id": {
+    "$oid": "67d5e4fe534ea2b036cc7d20"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "3wdw",
+  "originalPrice": 3,
+  "discountedPrice": 2.4,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-16T20:37:17.746Z",
+  "description": "wdw3d",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5e18d2e7ebcb86aab21ac"
+},
+{
+  "_id": {
+    "$oid": "67d677a7fb5b172284a74533"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "3232",
+  "originalPrice": 3232,
+  "discountedPrice": 2585.6,
+  "stock": 10,
+  "unit": "plate",
+  "expiryDate": "2025-03-17T07:03:03.313Z",
+  "description": "rvededg",
+  "image": "https://via.placeholder.com/300x180?text=Food+Sale",
+  "isActive": false,
+  "product": "67d5e1572e7ebcb86aab2198"
+},
+{
+  "_id": {
+    "$oid": "67d67e3838d3172f9df730bf"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "cscs",
+  "originalPrice": 343,
+  "discountedPrice": 43,
+  "stock": 3,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-19T02:00:00.000Z"
+  },
+  "description": "scdcszcs",
+  "image": "https://plus.unsplash.com/premium_photo-1741194732785-4624b6e5f0b5?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-16T07:31:04.076Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T07:31:04.077Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d70aab8fefd2b9246b6ff8"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "klnn ",
+  "originalPrice": 42,
+  "discountedPrice": 23,
+  "stock": 23,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-17T11:56:00.000Z"
+  },
+  "description": "njk",
+  "image": "https://unsplash.com/photos/an-empty-road-in-the-middle-of-the-woods-fs130s4gUKo",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-16T17:30:19.107Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T17:30:19.138Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d70f198fefd2b9246b70f4"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "sfcfecsd",
+  "originalPrice": 32,
+  "discountedPrice": 3,
+  "stock": 32,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-27T12:18:00.000Z"
+  },
+  "description": "dswdcawd",
+  "image": "https://unsplash.com/photos/an-empty-road-in-the-middle-of-the-woods-fs130s4gUKo",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-16T17:49:13.185Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T17:49:13.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d711708fefd2b9246b714d"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "332",
+  "originalPrice": -32,
+  "discountedPrice": -222,
+  "stock": 32,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-17T12:28:00.000Z"
+  },
+  "description": "2d3",
+  "image": "https://lesroches.edu/wp-content/uploads/2022/08/Restaurant_business_plan_main.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-16T17:59:12.635Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T17:59:12.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73c9f396acdfcac8ab5a8"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "vdv",
+  "originalPrice": 2,
+  "discountedPrice": 1,
+  "stock": 2,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-17T15:32:00.000Z"
+  },
+  "description": "v fd",
+  "image": "https://svs.gsfc.nasa.gov/vis/a030000/a030800/a030877/frames/5760x3240_16x9_01p/BlackMarble_2016_1200m_africa_s_labeled.png",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-16T21:03:27.757Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T21:03:27.760Z"
+  },
+  "__v": 0
+}]

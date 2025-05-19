@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  background-color: #f5f5f5;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+.status-chip {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(4px);
+}
+
+.price-chip {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  backdrop-filter: blur(4px);
+}
+
+.dietary-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.dietary-chip {
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  background-color: #f5f5f5;
+  color: #666;
+  transition: all 0.2s ease;
+}
+
+.dietary-chip:hover {
+  background-color: #e0e0e0;
+}
+
+.form-dialog {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.form-dialog .MuiDialogTitle-root {
+  background-color: #f8f9fa;
+  padding: 20px 24px;
+}
+
+.form-dialog .MuiDialogContent-root {
+  padding: 24px;
+}
+
+.form-section {
+  margin-bottom: 24px;
+}
+
+.form-section-title {
+  color: #1976d2;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.image-preview {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1300;
+}
+
+.error-container {
+  text-align: center;
+  padding: 32px;
+  background-color: #fff3f3;
+  border-radius: 8px;
+  margin: 16px 0;
+  border: 1px solid #ffcdd2;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 64px 24px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  color: #bdbdbd;
+  margin-bottom: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 960px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-dialog {
+    margin: 16px;
+    max-height: calc(100vh - 32px);
+  }
+  
+  .dietary-chips {
+    gap: 4px;
+  }
+}
+
+/* Food Listing Styles */
+.food-listing-grid {
+  margin-top: 24px;
+}
+
+.food-listing-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food-listing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.food-listing-media {
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-listing-content {
+  flex-grow: 1;
+}
+
+.food-listing-actions {
+  padding: 8px 16px 16px;
+}
+
+/* Category Chips */
+.category-chip {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+/* Form Styles */
+.form-stepper {
+  margin-bottom: 24px;
+}
+
+.form-step {
+  padding: 24px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+/* Image Upload */
+.image-upload-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.image-preview-list {
+  margin-top: 16px;
+}
+
+.image-preview-item {
+  position: relative;
+}
+
+.image-preview-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.image-remove-button {
+  position: absolute !important;
+  top: 4px;
+  right: 4px;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Status Badges */
+.status-badge-available {
+  background-color: #e8f5e9 !important;
+  color: #2e7d32 !important;
+}
+
+.status-badge-reserved {
+  background-color: #fff8e1 !important;
+  color: #f57c00 !important;
+}
+
+.status-badge-sold {
+  background-color: #f5f5f5 !important;
+  color: #616161 !important;
+}
+
+/* Filter Section */
+.filter-section {
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.search-field {
+  margin-right: 16px;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  .food-listing-media {
+    height: 150px;
+  }
+  
+  .form-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .search-field {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+} 

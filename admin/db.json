@@ -1,0 +1,323 @@
+{
+  "sellers": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@gmail.com",
+      "phone": "+919876543210",
+      "role": "seller",
+      "isVerified": true,
+      "address": {
+        "street": "123 Farm Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400001"
+      },
+      "documents": {
+        "businessCertificate": true,
+        "taxIdentification": true,
+        "identityProof": true,
+        "addressProof": true,
+        "organicCertification": true,
+        "pesticideUsageDeclaration": true
+      },
+      "createdAt": "2023-09-15T08:30:00.000Z",
+      "verificationNotes": "All documents verified."
+    },
+    {
+      "id": "2",
+      "name": "Priya Patel",
+      "email": "priya.patel@hotmail.com",
+      "phone": "+918765432109",
+      "role": "seller",
+      "isVerified": true,
+      "address": {
+        "street": "456 Green Avenue",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pincode": "110001"
+      },
+      "documents": {
+        "businessCertificate": true,
+        "taxIdentification": true,
+        "identityProof": true,
+        "addressProof": true,
+        "organicCertification": true,
+        "pesticideUsageDeclaration": true
+      },
+      "createdAt": "2023-10-20T10:15:00.000Z",
+      "verificationNotes": "Verified after phone interview."
+    },
+    {
+      "id": "3",
+      "name": "Amit Kumar",
+      "email": "amit.kumar@yahoo.com",
+      "phone": "+917654321098",
+      "role": "seller",
+      "isVerified": true,
+      "address": {
+        "street": "789 Harvest Lane",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560001"
+      },
+      "documents": {
+        "businessCertificate": true,
+        "taxIdentification": true,
+        "identityProof": true,
+        "addressProof": false,
+        "organicCertification": false,
+        "pesticideUsageDeclaration": true
+      },
+      "createdAt": "2023-11-05T09:45:00.000Z",
+      "verificationNotes": "Pending organic certification, but approved with conditions."
+    },
+    {
+      "id": "4",
+      "name": "Sunita Verma",
+      "email": "sunita.verma2024@gmail.com",
+      "phone": "+916543210987",
+      "role": "seller",
+      "isVerified": false,
+      "address": {
+        "street": "321 Rural Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "pincode": "600001"
+      },
+      "documents": {
+        "businessCertificate": false,
+        "taxIdentification": true,
+        "identityProof": true,
+        "addressProof": true,
+        "organicCertification": false,
+        "pesticideUsageDeclaration": false
+      },
+      "createdAt": "2023-12-10T11:30:00.000Z",
+      "verificationNotes": "Missing critical documents."
+    },
+    {
+      "id": "5",
+      "name": "Rajesh Malhotra",
+      "email": "rajesh.malhotra@gmail.com",
+      "phone": "+915432109876",
+      "role": "seller",
+      "isVerified": true,
+      "address": {
+        "street": "654 Organic Way",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "pincode": "411001"
+      },
+      "documents": {
+        "businessCertificate": true,
+        "taxIdentification": true,
+        "identityProof": true,
+        "addressProof": true,
+        "organicCertification": true,
+        "pesticideUsageDeclaration": true
+      },
+      "createdAt": "2024-01-15T13:20:00.000Z",
+      "verificationNotes": "Premium organic seller, all verified."
+    },
+    {
+      "id": "6",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@outlook.com",
+      "phone": "+914321098765",
+      "role": "seller",
+      "isVerified": false,
+      "address": {
+        "street": "987 Crop Circle",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500301"
+      },
+      "documents": {
+        "businessCertificate": true,
+        "taxIdentification": true,
+        "identityProof": true,
+        "addressProof": true,
+        "organicCertification": true,
+        "pesticideUsageDeclaration": true
+      },
+      "createdAt": "2024-02-20T15:10:00.000Z",
+      "verificationNotes": "All documents submitted, pending verification."
+    },
+    {
+      "id": "7",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "+913210987654",
+      "role": "seller",
+      "isVerified": false,
+      "address": {
+        "street": "135 Vegetable Market",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "pincode": "700001"
+      },
+      "documents": {
+        "businessCertificate": false,
+        "taxIdentification": false,
+        "identityProof": true,
+        "addressProof": false,
+        "organicCertification": false,
+        "pesticideUsageDeclaration": false
+      },
+      "createdAt": "2024-03-01T08:40:00.000Z",
+      "verificationNotes": "Incomplete documentation."
+    },
+    {
+      "id": "8",
+      "name": "Anita Desai",
+      "email": "anita.desai@yahoo.com",
+      "phone": "+912109876543",
+      "role": "seller",
+      "isVerified": true,
+      "address": {
+        "street": "246 Fruit Avenue",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "pincode": "380001"
+      },
+      "documents": {
+        "businessCertificate": true,
+        "taxIdentification": true,
+        "identityProof": true,
+        "addressProof": true,
+        "organicCertification": false,
+        "pesticideUsageDeclaration": true
+      },
+      "createdAt": "2024-03-15T14:25:00.000Z",
+      "verificationNotes": "Conventional farming, verified."
+    },
+    {
+      "id": "9",
+      "name": "Deepak Patil",
+      "email": "deepak.patil@gmail.com",
+      "phone": "+911098765432",
+      "role": "seller",
+      "isVerified": true,
+      "address": {
+        "street": "753 Grain Road",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "pincode": "440001"
+      },
+      "documents": {
+        "businessCertificate": true,
+        "taxIdentification": true,
+        "identityProof": true,
+        "addressProof": true,
+        "organicCertification": true,
+        "pesticideUsageDeclaration": true
+      },
+      "createdAt": "2023-08-25T09:15:00.000Z",
+      "verificationNotes": "Experienced organic seller."
+    },
+    {
+      "id": "10",
+      "name": "Meena Kumari",
+      "email": "meena.kumari@hotmail.com",
+      "phone": "+910987654321",
+      "role": "seller",
+      "isVerified": false,
+      "address": {
+        "street": "159 Farm Lane",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "pincode": "302001"
+      },
+      "documents": {
+        "businessCertificate": true,
+        "taxIdentification": false,
+        "identityProof": true,
+        "addressProof": true,
+        "organicCertification": false,
+        "pesticideUsageDeclaration": true
+      },
+      "createdAt": "2024-01-05T10:50:00.000Z",
+      "verificationNotes": "Missing tax identification."
+    }
+  ],
+  "sellerStats": {
+    "verification": [
+      {
+        "_id": true,
+        "count": 6
+      },
+      {
+        "_id": false,
+        "count": 4
+      }
+    ],
+    "location": [
+      {
+        "_id": "Maharashtra",
+        "count": 3
+      },
+      {
+        "_id": "Delhi",
+        "count": 1
+      },
+      {
+        "_id": "Karnataka",
+        "count": 1
+      },
+      {
+        "_id": "Tamil Nadu",
+        "count": 1
+      },
+      {
+        "_id": "Telangana",
+        "count": 1
+      }
+    ],
+    "registration": [
+      {
+        "_id": {
+          "year": 2024,
+          "month": 3
+        },
+        "count": 2
+      },
+      {
+        "_id": {
+          "year": 2024,
+          "month": 2
+        },
+        "count": 1
+      },
+      {
+        "_id": {
+          "year": 2024,
+          "month": 1
+        },
+        "count": 2
+      },
+      {
+        "_id": {
+          "year": 2023,
+          "month": 12
+        },
+        "count": 1
+      },
+      {
+        "_id": {
+          "year": 2023,
+          "month": 11
+        },
+        "count": 1
+      },
+      {
+        "_id": {
+          "year": 2023,
+          "month": 10
+        },
+        "count": 1
+      }
+    ],
+    "total": 10
+  }
+} 

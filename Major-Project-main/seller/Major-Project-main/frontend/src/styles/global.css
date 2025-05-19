@@ -1,0 +1,5 @@
+/* Hide duplicate Dashboard title in the Analytics page */
+.analytics-page-wrapper h1.dashboard-title,
+.analytics-page-wrapper div.dashboard-title {
+  display: none !important;
+} 

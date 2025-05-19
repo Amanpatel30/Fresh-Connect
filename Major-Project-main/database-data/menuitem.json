@@ -1,0 +1,435 @@
+[{
+  "_id": {
+    "$oid": "67d67c6738d3172f9df73050"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "d",
+  "description": "vdreged",
+  "price": 43,
+  "image": "4rfxzfxew4",
+  "category": "appetizer",
+  "isVegetarian": true,
+  "isVegan": true,
+  "isGlutenFree": true,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T07:23:20.021Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T07:26:53.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d67d0938d3172f9df73069"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "sesdcfs",
+  "description": "dseswcf",
+  "price": 32,
+  "image": "https://plus.unsplash.com/premium_photo-1741194732785-4624b6e5f0b5?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "appetizer",
+  "isVegetarian": true,
+  "isVegan": true,
+  "isGlutenFree": true,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T07:26:01.671Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T07:26:01.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d733f84039e34ad33e4c43"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dcsxzedx",
+  "description": "edscsx",
+  "price": 0.02,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": true,
+  "isVegan": true,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:26:32.850Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:26:32.850Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d7340c4039e34ad33e4c53"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dcsxzedx",
+  "description": "edscsx",
+  "price": 0.02,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": true,
+  "isVegan": true,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:26:52.544Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:26:52.544Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73481ab3df28e6dc15773"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "cdcd",
+  "description": "cscs",
+  "price": 0.02,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:28:49.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:28:49.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d7372bd1485a6d1000b2f8"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "vf ",
+  "description": "c dsc",
+  "price": 3,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:40:11.464Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:40:11.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d7373dd1485a6d1000b2ff"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "vf ",
+  "description": "c dsc",
+  "price": 3,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:40:29.959Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:40:29.959Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d7374cd1485a6d1000b303"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "vf ",
+  "description": "c dsc",
+  "price": 3,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:40:44.702Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:40:44.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73755d1485a6d1000b306"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "vf ",
+  "description": "c dsc",
+  "price": 3,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:40:53.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:40:53.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73858aebdae2db7e89c68"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "vddv",
+  "description": "vdvd",
+  "price": 0.02,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:45:12.612Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:45:12.612Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d739d78af21533160ca9ee"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "df  ",
+  "description": "d ",
+  "price": 0.02,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:51:35.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:51:35.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73a188af21533160ca9fb"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "xx ",
+  "description": "xzxz",
+  "price": 32,
+  "image": "http://localhost:5001/api/products/image/file/image-1742158337003-381039446.png",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": true,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:52:40.494Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:52:40.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73b37396acdfcac8ab4c0"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dsc",
+  "description": "x c",
+  "price": 0.01,
+  "image": "http://localhost:5001/api/products/image/file/image-1742158626494-42314858.png",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:57:27.487Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:57:27.487Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73b54396acdfcac8ab4c8"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "v fdv",
+  "description": "dvvdfv",
+  "price": 4,
+  "image": "",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T20:57:56.733Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:57:56.733Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73c5b396acdfcac8ab506"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": " dxs ",
+  "description": "cdsc",
+  "price": 32,
+  "image": "http://localhost:5001/api/products/image/file/image-1742158935255-753645331.png",
+  "category": "appetizer",
+  "isVegetarian": false,
+  "isVegan": false,
+  "isGlutenFree": false,
+  "isAvailable": true,
+  "ingredients": [],
+  "preparationTime": 15,
+  "isPopular": false,
+  "rating": 0,
+  "numReviews": 0,
+  "createdAt": {
+    "$date": "2025-03-16T21:02:19.709Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T21:02:19.709Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,395 @@
+[{
+  "_id": {
+    "$oid": "67d68d201725d3822649e02d"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "New",
+  "category": "vegetables",
+  "quantity": 32,
+  "unit": "kg",
+  "price": 23,
+  "supplier": {
+    "name": "fvd",
+    "contact": "",
+    "email": ""
+  },
+  "purchaseDate": {
+    "$date": "2025-03-16T08:34:40.454Z"
+  },
+  "minStockLevel": 32,
+  "isLowStock": true,
+  "isOutOfStock": false,
+  "location": "Main Storage",
+  "notes": "",
+  "images": [],
+  "isLeftoverFood": false,
+  "createdAt": {
+    "$date": "2025-03-16T08:34:40.464Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T08:34:40.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d72673d019e8a7bef009a9"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "bfb f",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 32,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T19:28:24.698Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: Dairy-Free\nLeftover food listing\nbfbf",
+  "images": [
+    "http://localhost:5001/api/products/image/image-1742153310247-183466179.png"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T19:28:51.636Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T19:28:51.649Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T19:28:51.649Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d7285982881ac0a49b7a8f"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dvv",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 0.02,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T19:36:38.373Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: Vegan, Dairy-Free\nLeftover food listing\nvd xv",
+  "images": [
+    "http://localhost:5001/api/products/image/image-1742153806710-657128727.png"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T19:36:57.452Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T19:36:57.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T19:36:57.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d729a0c5f8ebc937008523"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "sc ",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 0.02,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T19:42:00.080Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: Dairy-Free\nLeftover food listing\ncsc ",
+  "images": [
+    "http://localhost:5001/api/products/image/file/image-1742154133071-414293537.png"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T19:42:24.950Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T19:42:24.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T19:42:24.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d72ca4173dfd471a5199ab"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": " sddd ",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 0.02,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T19:54:51.732Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: None\nLeftover food listing\n xd s",
+  "images": [
+    "http://localhost:5001/api/products/image/file/image-1742154902836-124349252.jpg"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T19:55:16.858Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T19:55:16.861Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T19:55:16.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d72cc3173dfd471a5199ba"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "dv",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 23,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T19:55:24.572Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: Gluten-Free\nLeftover food listing\ndsv",
+  "images": [
+    "http://localhost:5001/api/products/image/file/image-1742154933708-800757707.png"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T19:55:47.044Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T19:55:47.047Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T19:55:47.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d72e9ec81b3e4c30362aad"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "vdxvf",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 0.02,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T20:03:13.307Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: Gluten-Free\nLeftover food listing\nvdsx",
+  "images": [
+    "http://localhost:5001/api/products/image/file/image-1742155409252-517550739.png"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T20:03:42.034Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T20:03:42.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:03:42.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d72fe5ca56f9d4994c9549"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "df",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 0.02,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T20:08:28.840Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: Dairy-Free\nLeftover food listing\nvded",
+  "images": [
+    "http://localhost:5001/api/products/image/file/image-1742155735996-572594341.png"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T20:09:09.590Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T20:09:09.597Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:09:09.597Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d73063ca56f9d4994c9555"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "vdf",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 0.02,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T20:10:54.999Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: Gluten-Free\nLeftover food listing\nved",
+  "images": [
+    "http://localhost:5001/api/products/image/file/image-1742155863451-631530225.png"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T20:11:15.735Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T20:11:15.736Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:11:15.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d730b5250bded3c4d725ee"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "esdwcsw",
+  "category": "other",
+  "quantity": 1,
+  "unit": "portions",
+  "price": 0.03,
+  "supplier": {
+    "name": "",
+    "contact": "",
+    "email": ""
+  },
+  "expiryDate": {
+    "$date": "2025-03-17T20:12:11.611Z"
+  },
+  "minStockLevel": 0,
+  "isLowStock": false,
+  "isOutOfStock": false,
+  "location": "Leftover Food",
+  "notes": "Dietary info: None\nLeftover food listing\nswexc",
+  "images": [
+    "http://localhost:5001/api/products/image/file/image-1742155943580-284079561.png"
+  ],
+  "isLeftoverFood": true,
+  "purchaseDate": {
+    "$date": "2025-03-16T20:12:37.101Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-16T20:12:37.103Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T20:12:37.103Z"
+  },
+  "__v": 0
+}]

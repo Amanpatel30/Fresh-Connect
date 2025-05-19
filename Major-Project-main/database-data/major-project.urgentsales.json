@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc6e"
+  },
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc05"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc19"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.680Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.681Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc71"
+  },
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc08"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc1c"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.682Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc72"
+  },
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc09"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc1d"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.682Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc6f"
+  },
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc1a"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.681Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc70"
+  },
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc07"
+  },
+  "product": {
+    "$oid": "67cdf77b07c68d25d08bbc1b"
+  },
+  "name": "Fresh Vegetables Bundle",
+  "originalPrice": 50,
+  "discountedPrice": 30,
+  "stock": 10,
+  "unit": "kg",
+  "expiryDate": {
+    "$date": "2025-03-10T20:18:03.682Z"
+  },
+  "description": "Bundle of fresh vegetables at a discounted price",
+  "image": "https://example.com/vegetables.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0b90626f4d9d4f8b1d7e9"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Butter Chicken",
+  "originalPrice": 350,
+  "discountedPrice": 245,
+  "stock": 15,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:28:22.543Z"
+  },
+  "description": "Tender chicken in a creamy tomato sauce - limited time offer!",
+  "image": "https://via.placeholder.com/300x180?text=Butter+Chicken",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-11T22:28:22.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0b90626f4d9d4f8b1d7ea"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Paneer Tikka",
+  "originalPrice": 280,
+  "discountedPrice": 196,
+  "stock": 20,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:28:22.543Z"
+  },
+  "description": "Chunks of paneer marinated and grilled - save 30% today only!",
+  "image": "https://via.placeholder.com/300x180?text=Paneer+Tikka",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:28:22.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0b90626f4d9d4f8b1d7eb"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Vegetable Biryani",
+  "originalPrice": 240,
+  "discountedPrice": 168,
+  "stock": 18,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:28:22.543Z"
+  },
+  "description": "Fragrant rice dish with mixed vegetables - hurry before it's gone!",
+  "image": "https://via.placeholder.com/300x180?text=Veg+Biryani",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:28:22.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0b9c563c735d8b650d3ba"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Butter Chicken",
+  "originalPrice": 350,
+  "discountedPrice": 245,
+  "stock": 15,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:31:33.675Z"
+  },
+  "description": "Tender chicken in a creamy tomato sauce - limited time offer!",
+  "image": "https://via.placeholder.com/300x180?text=Butter+Chicken",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:31:33.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T22:31:33.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0b9c563c735d8b650d3bb"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Paneer Tikka",
+  "originalPrice": 280,
+  "discountedPrice": 190,
+  "stock": 20,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-19T17:01:00.000Z"
+  },
+  "description": "Chunks of paneer marinated and grilled - save 30% today only!",
+  "image": "https://via.placeholder.com/300x180?text=Paneer+Tikka",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-03-11T22:31:33.676Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T22:31:33.676Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d0b9c563c735d8b650d3bc"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "name": "Vegetable Biryani",
+  "originalPrice": 240,
+  "discountedPrice": 168,
+  "stock": 18,
+  "unit": "piece",
+  "expiryDate": {
+    "$date": "2025-03-12T22:31:33.676Z"
+  },
+  "description": "Fragrant rice dish with mixed vegetables - hurry before it's gone!",
+  "image": "https://via.placeholder.com/300x180?text=Veg+Biryani",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-03-11T22:31:33.676Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T22:31:33.676Z"
+  }
+}]

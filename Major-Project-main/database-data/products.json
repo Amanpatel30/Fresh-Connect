@@ -1,0 +1,297 @@
+[{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b28"
+  },
+  "name": "Fresh Organic Tomatoes",
+  "imageUrl": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "price": 2.99,
+  "category": "vegetables",
+  "inStock": true,
+  "description": "Locally grown organic tomatoes, perfect for salads and cooking.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:22:47.418Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/539431/pexels-photo-539431.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 19,
+  "rating": 3.772832742946311,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 58,
+  "unit": "dozen",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:35.990Z"
+  },
+  "urgentSale": false
+},
+{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b29"
+  },
+  "name": "Premium Basmati Rice",
+  "imageUrl": "https://images.pexels.com/photos/7851798/pexels-photo-7851798.jpeg",
+  "price": 5.49,
+  "category": "grains",
+  "inStock": true,
+  "description": "High-quality aromatic basmati rice, ideal for biryanis and pilafs.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:22:47.418Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 7,
+  "rating": 3.3375640184972766,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 52,
+  "unit": "piece",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:36.012Z"
+  },
+  "urgentSale": false
+},
+{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b2a"
+  },
+  "name": "Fresh Green Spinach",
+  "imageUrl": "https://images.pexels.com/photos/6824475/pexels-photo-6824475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "price": 1.99,
+  "category": "vegetables",
+  "inStock": true,
+  "description": "Nutrient-rich green spinach, freshly harvested from local farms.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:22:47.419Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 11,
+  "rating": 2.2992550929745237,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 16,
+  "unit": "dozen",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:36.029Z"
+  },
+  "urgentSale": false
+},
+{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b2b"
+  },
+  "name": "Alphonso Mangoes",
+  "imageUrl": "https://images.pexels.com/photos/5097708/pexels-photo-5097708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "price": 7.99,
+  "category": "fruits",
+  "inStock": true,
+  "description": "Sweet and flavorful Alphonso mangoes, known as the king of fruits.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:22:47.419Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 8,
+  "rating": 4.010339201659047,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 47,
+  "unit": "piece",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:36.045Z"
+  },
+  "urgentSale": false
+},
+{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b2c"
+  },
+  "name": "Fresh Cauliflower",
+  "imageUrl": "https://images.unsplash.com/photo-1613743983303-b3e89f8a2b80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "price": 2.49,
+  "category": "vegetables",
+  "inStock": true,
+  "description": "Fresh and crisp cauliflower, perfect for roasting or making curries.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:22:47.419Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/2518893/pexels-photo-2518893.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 20,
+  "rating": 3.658610273569562,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 17,
+  "unit": "dozen",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:36.064Z"
+  },
+  "urgentSale": false
+},
+{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b2d"
+  },
+  "name": "Organic Brown Eggs",
+  "imageUrl": "https://images.unsplash.com/photo-1635843086739-624d71f440b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "price": 4.29,
+  "category": "dairy",
+  "inStock": true,
+  "description": "Farm-fresh organic brown eggs from free-range chickens.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:22:47.419Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 2,
+  "rating": 3.4723667186505756,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 54,
+  "unit": "kg",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:36.087Z"
+  },
+  "urgentSale": false
+},
+{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b2e"
+  },
+  "name": "Fresh Green Peas",
+  "imageUrl": "https://images.pexels.com/photos/768089/pexels-photo-768089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "price": 3.49,
+  "category": "vegetables",
+  "inStock": true,
+  "description": "Sweet and tender green peas, freshly picked and ready to cook.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:22:47.419Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 1,
+  "rating": 4.52496004228811,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 52,
+  "unit": "kg",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:36.104Z"
+  },
+  "urgentSale": false
+},
+{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b2f"
+  },
+  "name": "Organic Honey",
+  "imageUrl": "https://images.pexels.com/photos/28714404/pexels-photo-28714404/free-photo-of-honey-drizzle-from-wooden-dipper-on-yellow-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "price": 8.99,
+  "category": "Vegetables",
+  "inStock": true,
+  "description": "Pure organic honey, harvested from local beekeepers.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:23:35.957Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 8,
+  "rating": 4.101493039452014,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 32,
+  "unit": "piece",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:36.125Z"
+  },
+  "urgentSale": false
+},
+{
+  "_id": {
+    "$oid": "67d6be85562c4cd6c7318b30"
+  },
+  "name": "Fresh Red Onions",
+  "imageUrl": "https://images.unsplash.com/photo-1720847009696-4f8795c36e4d?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "price": 1.79,
+  "category": "vegetables",
+  "inStock": true,
+  "description": "Crisp red onions, perfect for salads and cooking.",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-03-16T12:22:47.420Z"
+  },
+  "discountPercentage": 0,
+  "image": "https://images.pexels.com/photos/2518893/pexels-photo-2518893.jpeg?auto=compress&cs=tinysrgb&w=500&h=500",
+  "isFresh": true,
+  "isOrganic": false,
+  "isVerified": false,
+  "numReviews": 12,
+  "rating": 3.4758397226213633,
+  "reviews": [],
+  "seller": {
+    "$oid": "67cdf77a07c68d25d08bbc06"
+  },
+  "sellerType": "Standard",
+  "stock": 29,
+  "unit": "dozen",
+  "updatedAt": {
+    "$date": "2025-03-16T12:23:36.158Z"
+  },
+  "urgentSale": false
+}]

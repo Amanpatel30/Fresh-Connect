@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "67cf49a96a0816a39bc52e3e"
+  },
+  "user": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "supplier": "Fresh Produce Supplier",
+  "items": [
+    {
+      "name": "Tomatoes",
+      "quantity": 20,
+      "unit": "kg",
+      "unitPrice": 3.5,
+      "totalPrice": 70
+    },
+    {
+      "name": "Onions",
+      "quantity": 15,
+      "unit": "kg",
+      "unitPrice": 2.25,
+      "totalPrice": 33.75
+    }
+  ],
+  "totalAmount": 103.75,
+  "paymentMethod": "Cash",
+  "paymentStatus": "Paid",
+  "notes": "Weekly vegetable delivery",
+  "receiptNumber": "REC-001",
+  "createdAt": {
+    "$date": "2025-03-10T20:20:57.990Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T20:20:57.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cf49a96a0816a39bc52e3f"
+  },
+  "user": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "supplier": "Meat Wholesaler",
+  "items": [
+    {
+      "name": "Chicken",
+      "quantity": 10,
+      "unit": "kg",
+      "unitPrice": 8.75,
+      "totalPrice": 87.5
+    },
+    {
+      "name": "Beef",
+      "quantity": 5,
+      "unit": "kg",
+      "unitPrice": 12.5,
+      "totalPrice": 62.5
+    }
+  ],
+  "totalAmount": 150,
+  "paymentMethod": "Credit Card",
+  "paymentStatus": "Paid",
+  "notes": "Monthly meat order",
+  "receiptNumber": "REC-002",
+  "createdAt": {
+    "$date": "2025-03-10T20:20:57.990Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T20:20:57.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cf49a96a0816a39bc52e40"
+  },
+  "user": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "hotel": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "supplier": "Dairy Products Inc.",
+  "items": [
+    {
+      "name": "Milk",
+      "quantity": 30,
+      "unit": "liter",
+      "unitPrice": 1.75,
+      "totalPrice": 52.5
+    },
+    {
+      "name": "Cheese",
+      "quantity": 5,
+      "unit": "kg",
+      "unitPrice": 9.25,
+      "totalPrice": 46.25
+    }
+  ],
+  "totalAmount": 98.75,
+  "paymentMethod": "Bank Transfer",
+  "paymentStatus": "Paid",
+  "notes": "Weekly dairy delivery",
+  "receiptNumber": "REC-003",
+  "createdAt": {
+    "$date": "2025-03-10T20:20:57.990Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T20:20:57.990Z"
+  }
+}]

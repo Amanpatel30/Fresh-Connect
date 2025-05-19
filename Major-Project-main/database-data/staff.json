@@ -1,0 +1,495 @@
+[{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc46"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc0f"
+  },
+  "name": "John Smith",
+  "role": "Head Chef",
+  "department": "Kitchen",
+  "phone": "1234567890",
+  "email": "chef_67cdf77b07c68d25d08bbc0f@example.com",
+  "address": {
+    "street": "789 Staff St",
+    "city": "Staff City",
+    "state": "Staff State",
+    "zipCode": "12345",
+    "country": "Example Country"
+  },
+  "emergencyContact": {
+    "name": "Jane Smith",
+    "relationship": "Spouse",
+    "phone": "9876543210"
+  },
+  "dateOfBirth": {
+    "$date": "1985-01-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "salary": {
+    "amount": 5001,
+    "currency": "USD",
+    "paymentFrequency": "Monthly"
+  },
+  "leaveBalance": {
+    "sick": 10,
+    "vacation": 15,
+    "personal": 5
+  },
+  "performance": {
+    "lastReviewDate": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "rating": 4.5,
+    "comments": "Excellent performance and leadership skills"
+  },
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc47"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc48"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc49"
+      }
+    },
+    {
+      "day": "Thursday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc4a"
+      }
+    },
+    {
+      "day": "Friday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc4b"
+      }
+    }
+  ],
+  "dateHired": {
+    "$date": "2025-03-09T20:18:03.669Z"
+  },
+  "documents": [],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc4c"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc10"
+  },
+  "name": "John Smith",
+  "role": "Head Chef",
+  "department": "Kitchen",
+  "phone": "1234567890",
+  "email": "chef_67cdf77b07c68d25d08bbc10@example.com",
+  "address": {
+    "street": "789 Staff St",
+    "city": "Staff City",
+    "state": "Staff State",
+    "zipCode": "12345",
+    "country": "Example Country"
+  },
+  "emergencyContact": {
+    "name": "Jane Smith",
+    "relationship": "Spouse",
+    "phone": "9876543210"
+  },
+  "dateOfBirth": {
+    "$date": "1985-01-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "salary": {
+    "amount": 5001,
+    "currency": "USD",
+    "paymentFrequency": "Monthly"
+  },
+  "leaveBalance": {
+    "sick": 10,
+    "vacation": 15,
+    "personal": 5
+  },
+  "performance": {
+    "lastReviewDate": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "rating": 4.5,
+    "comments": "Excellent performance and leadership skills"
+  },
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc4d"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc4e"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc4f"
+      }
+    },
+    {
+      "day": "Thursday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc50"
+      }
+    },
+    {
+      "day": "Friday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc51"
+      }
+    }
+  ],
+  "dateHired": {
+    "$date": "2025-03-09T20:18:03.670Z"
+  },
+  "documents": [],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.709Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc52"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc11"
+  },
+  "name": "John Smith",
+  "role": "Head Chef",
+  "department": "Kitchen",
+  "phone": "1234567890",
+  "email": "chef_67cdf77b07c68d25d08bbc11@example.com",
+  "address": {
+    "street": "789 Staff St",
+    "city": "Staff City",
+    "state": "Staff State",
+    "zipCode": "12345",
+    "country": "Example Country"
+  },
+  "emergencyContact": {
+    "name": "Jane Smith",
+    "relationship": "Spouse",
+    "phone": "9876543210"
+  },
+  "dateOfBirth": {
+    "$date": "1985-01-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "salary": {
+    "amount": 5001,
+    "currency": "USD",
+    "paymentFrequency": "Monthly"
+  },
+  "leaveBalance": {
+    "sick": 10,
+    "vacation": 15,
+    "personal": 5
+  },
+  "performance": {
+    "lastReviewDate": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "rating": 4.5,
+    "comments": "Excellent performance and leadership skills"
+  },
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc53"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc54"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc55"
+      }
+    },
+    {
+      "day": "Thursday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc56"
+      }
+    },
+    {
+      "day": "Friday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc57"
+      }
+    }
+  ],
+  "dateHired": {
+    "$date": "2025-03-09T20:18:03.672Z"
+  },
+  "documents": [],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.709Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc58"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc12"
+  },
+  "name": "John Smith",
+  "role": "Head Chef",
+  "department": "Kitchen",
+  "phone": "1234567890",
+  "email": "chef_67cdf77b07c68d25d08bbc12@example.com",
+  "address": {
+    "street": "789 Staff St",
+    "city": "Staff City",
+    "state": "Staff State",
+    "zipCode": "12345",
+    "country": "Example Country"
+  },
+  "emergencyContact": {
+    "name": "Jane Smith",
+    "relationship": "Spouse",
+    "phone": "9876543210"
+  },
+  "dateOfBirth": {
+    "$date": "1985-01-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "salary": {
+    "amount": 5001,
+    "currency": "USD",
+    "paymentFrequency": "Monthly"
+  },
+  "leaveBalance": {
+    "sick": 10,
+    "vacation": 15,
+    "personal": 5
+  },
+  "performance": {
+    "lastReviewDate": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "rating": 4.5,
+    "comments": "Excellent performance and leadership skills"
+  },
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc59"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc5a"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc5b"
+      }
+    },
+    {
+      "day": "Thursday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc5c"
+      }
+    },
+    {
+      "day": "Friday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc5d"
+      }
+    }
+  ],
+  "dateHired": {
+    "$date": "2025-03-09T20:18:03.674Z"
+  },
+  "documents": [],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.709Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdf77b07c68d25d08bbc5e"
+  },
+  "hotel": {
+    "$oid": "67cdf77b07c68d25d08bbc13"
+  },
+  "name": "John Smith",
+  "role": "Head Chef",
+  "department": "Kitchen",
+  "phone": "1234567890",
+  "email": "chef_67cdf77b07c68d25d08bbc13@example.com",
+  "address": {
+    "street": "789 Staff St",
+    "city": "Staff City",
+    "state": "Staff State",
+    "zipCode": "12345",
+    "country": "Example Country"
+  },
+  "emergencyContact": {
+    "name": "Jane Smith",
+    "relationship": "Spouse",
+    "phone": "9876543210"
+  },
+  "dateOfBirth": {
+    "$date": "1985-01-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "salary": {
+    "amount": 5001,
+    "currency": "USD",
+    "paymentFrequency": "Monthly"
+  },
+  "leaveBalance": {
+    "sick": 10,
+    "vacation": 15,
+    "personal": 5
+  },
+  "performance": {
+    "lastReviewDate": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "rating": 4.5,
+    "comments": "Excellent performance and leadership skills"
+  },
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc5f"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc60"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc61"
+      }
+    },
+    {
+      "day": "Thursday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc62"
+      }
+    },
+    {
+      "day": "Friday",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "_id": {
+        "$oid": "67cdf77b07c68d25d08bbc63"
+      }
+    }
+  ],
+  "dateHired": {
+    "$date": "2025-03-09T20:18:03.676Z"
+  },
+  "documents": [],
+  "createdAt": {
+    "$date": "2025-03-09T20:18:03.709Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T20:18:03.709Z"
+  },
+  "__v": 0
+}]

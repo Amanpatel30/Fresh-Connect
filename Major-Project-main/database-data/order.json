@@ -1,0 +1,235 @@
+[{
+  "_id": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  },
+  "buyer": {
+    "_id": {
+      "$oid": "67ce83e6b49cd8fe9297a754"
+    },
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "+91 9876543210"
+  },
+  "items": [
+    {
+      "name": "Butter Chicken",
+      "quantity": 2,
+      "price": 350,
+      "unit": "plate"
+    },
+    {
+      "name": "Naan",
+      "quantity": 4,
+      "price": 40,
+      "unit": "piece"
+    }
+  ],
+  "shippingAddress": {
+    "street": "123 Main Street",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "postalCode": "400001",
+    "country": "India"
+  },
+  "totalAmount": 860,
+  "status": "pending",
+  "paymentMethod": "cod",
+  "paymentStatus": "pending",
+  "createdAt": {
+    "$date": "2025-03-16T08:45:22.956Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T08:45:22.956Z"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce83e6b49cd8fe9297a755"
+  },
+  "buyer": {
+    "_id": {
+      "$oid": "67ce83e6b49cd8fe9297a756"
+    },
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "phone": "+91 9876543211"
+  },
+  "items": [
+    {
+      "name": "Paneer Tikka",
+      "quantity": 1,
+      "price": 280,
+      "unit": "plate"
+    },
+    {
+      "name": "Veg Biryani",
+      "quantity": 2,
+      "price": 220,
+      "unit": "plate"
+    }
+  ],
+  "shippingAddress": {
+    "street": "456 Park Avenue",
+    "city": "Delhi",
+    "state": "Delhi",
+    "postalCode": "110001",
+    "country": "India"
+  },
+  "totalAmount": 720,
+  "status": "delivered",
+  "paymentMethod": "online",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-03-15T08:45:22.956Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T08:45:22.956Z"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce83e6b49cd8fe9297a757"
+  },
+  "buyer": {
+    "_id": {
+      "$oid": "67ce83e6b49cd8fe9297a758"
+    },
+    "name": "Rahul Kumar",
+    "email": "rahul@example.com",
+    "phone": "+91 9876543212"
+  },
+  "items": [
+    {
+      "name": "Chicken Biryani",
+      "quantity": 3,
+      "price": 250,
+      "unit": "plate"
+    },
+    {
+      "name": "Raita",
+      "quantity": 3,
+      "price": 50,
+      "unit": "bowl"
+    }
+  ],
+  "shippingAddress": {
+    "street": "789 Lake View",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "postalCode": "560001",
+    "country": "India"
+  },
+  "totalAmount": 900,
+  "status": "delivered",
+  "paymentMethod": "online",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-03-14T08:45:22.956Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T08:45:22.956Z"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce83e6b49cd8fe9297a759"
+  },
+  "buyer": {
+    "_id": {
+      "$oid": "67ce83e6b49cd8fe9297a75a"
+    },
+    "name": "Priya Sharma",
+    "email": "priya@example.com",
+    "phone": "+91 9876543213"
+  },
+  "items": [
+    {
+      "name": "Masala Dosa",
+      "quantity": 4,
+      "price": 120,
+      "unit": "plate"
+    },
+    {
+      "name": "Filter Coffee",
+      "quantity": 4,
+      "price": 60,
+      "unit": "cup"
+    }
+  ],
+  "shippingAddress": {
+    "street": "101 Temple Road",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "postalCode": "600001",
+    "country": "India"
+  },
+  "totalAmount": 720,
+  "status": "delivered",
+  "paymentMethod": "cod",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-03-13T08:45:22.956Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T08:45:22.956Z"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce83e6b49cd8fe9297a75b"
+  },
+  "buyer": {
+    "_id": {
+      "$oid": "67ce83e6b49cd8fe9297a75c"
+    },
+    "name": "Amit Patel",
+    "email": "amit@example.com",
+    "phone": "+91 9876543214"
+  },
+  "items": [
+    {
+      "name": "Chole Bhature",
+      "quantity": 2,
+      "price": 180,
+      "unit": "plate"
+    },
+    {
+      "name": "Lassi",
+      "quantity": 2,
+      "price": 80,
+      "unit": "glass"
+    }
+  ],
+  "shippingAddress": {
+    "street": "202 Green Park",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "postalCode": "380001",
+    "country": "India"
+  },
+  "totalAmount": 520,
+  "status": "cancelled",
+  "paymentMethod": "online",
+  "paymentStatus": "refunded",
+  "createdAt": {
+    "$date": "2025-03-12T08:45:22.956Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T08:45:22.956Z"
+  },
+  "seller": {
+    "$oid": "67ce83e6b49cd8fe9297a753"
+  }
+}]

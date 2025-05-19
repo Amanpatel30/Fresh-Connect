@@ -1,0 +1,138 @@
+/* FilterSection.css */
+.filter-section {
+    transition: all 0.3s ease;
+}
+
+.filter-section:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.filter-header {
+    position: relative;
+    z-index: 2;
+}
+
+.filter-header:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #10b981; /* green-600 */
+    transition: width 0.3s ease;
+}
+
+.filter-section:hover .filter-header:after {
+    width: 90%;
+}
+
+.filter-section-title {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.filter-section-button {
+    transition: transform 0.3s ease;
+}
+
+.filter-section-button:hover {
+    transform: scale(1.1);
+}
+
+.filter-content {
+    overflow: hidden;
+}
+
+.filter-group {
+    border-top: 1px solid #f3f4f6; /* gray-100 */
+    transition: background-color 0.2s ease;
+}
+
+.filter-group:hover {
+    background-color: #f9fafb; /* gray-50 */
+}
+
+.filter-group-header {
+    cursor: pointer;
+    user-select: none;
+}
+
+.filter-group-title {
+    font-weight: 500;
+    color: #374151; /* gray-700 */
+}
+
+.filter-item {
+    transition: all 0.2s ease;
+    border-radius: 0.5rem;
+}
+
+.filter-item:hover {
+    background-color: #f3f4f6; /* gray-100 */
+    transform: translateX(4px);
+}
+
+.filter-checkbox {
+    transition: all 0.2s ease;
+}
+
+.filter-checkbox.checked {
+    background-color: #10b981; /* green-600 */
+    border-color: #10b981; /* green-600 */
+}
+
+.filter-checkbox-icon {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.2s ease;
+}
+
+.filter-checkbox.checked .filter-checkbox-icon {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.clear-filters-button {
+    transition: all 0.2s ease;
+}
+
+.clear-filters-button:hover {
+    background-color: #fee2e2; /* red-100 */
+    color: #ef4444; /* red-500 */
+}
+
+.clear-filters-button:hover svg {
+    color: #ef4444; /* red-500 */
+}
+
+/* Animations for expanding/collapsing sections */
+.section-enter {
+    max-height: 0;
+    opacity: 0;
+}
+
+.section-enter-active {
+    max-height: 500px;
+    opacity: 1;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.section-exit {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.section-exit-active {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .filter-section {
+        margin-bottom: 1rem;
+    }
+} 

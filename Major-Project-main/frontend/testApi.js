@@ -5,7 +5,7 @@ import axios from 'axios';
 const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2U4M2U2YjQ5Y2Q4ZmU5Mjk3YTc1MyIsImlhdCI6MTY5MzAyMDYxMSwiZXhwIjoxNjk1NjEyNjExfQ.NzhfN8xxWwz8d2_lLXYVmnmJ5hHwIKUUGZQ-ZSOK-n8';
 
 // API URL
-const apiUrl = 'http://localhost:5001/api/urgent-sales/my-sales';
+const apiUrl = 'http://https://fresh-connect-backend.onrender.com/api/urgent-sales/my-sales';
 
 // Function to create a delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -62,7 +62,7 @@ async function testUrgentSalesApi() {
     // Try to fetch the public endpoint to check if the server is running
     try {
       console.log('\nTrying public endpoint to check if server is running...');
-      const publicResponse = await axios.get('http://localhost:5001/api/test');
+      const publicResponse = await axios.get('http://https://fresh-connect-backend.onrender.com/api/test');
       console.log('Public endpoint response:', publicResponse.data);
       console.log('Server is running but the urgent sales endpoint has an issue');
     } catch (err) {

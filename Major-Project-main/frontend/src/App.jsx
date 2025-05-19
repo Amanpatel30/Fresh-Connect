@@ -117,7 +117,7 @@ import Test from './pages/Test';
 const checkBackendServer = async () => {
   try {
     // Try to ping the backend server with a short timeout
-    const response = await axios.get('http://localhost:5001/api/check-auth', {
+    const response = await axios.get('http://https://fresh-connect-backend.onrender.com/api/check-auth', {
       timeout: 3000
     });
     console.log('Backend server is running on port 5001');

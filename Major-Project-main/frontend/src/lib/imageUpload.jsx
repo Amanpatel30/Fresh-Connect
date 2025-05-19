@@ -118,7 +118,7 @@ export const uploadImage = async (file) => {
       const formData = new FormData();
       formData.append('image', processedFile, processedFile.name);
       
-      const apiUrl = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/upload`;
+      const apiUrl = `${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/upload`;
       
       const response = await fetch(apiUrl, {
       method: 'POST',

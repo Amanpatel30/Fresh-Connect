@@ -151,7 +151,7 @@ export const uploadProfileImage = async (imageFile) => {
       try {
         console.log(`Trying upload endpoint: ${endpoint}`);
         
-        response = await fetch(`${import.meta.env.VITE_BASE_URL || 'http://localhost:5001'}${endpoint}`, {
+        response = await fetch(`${import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}${endpoint}`, {
           method: 'POST',
           body: formData,
           headers: {
@@ -193,7 +193,7 @@ export const uploadProfileImage = async (imageFile) => {
       simpleFormData.append('type', 'profile'); // Hint that this is a profile image
       
       // Make a direct fetch call with minimal headers
-      const directResponse = await fetch(`${import.meta.env.VITE_BASE_URL || 'http://localhost:5001'}/upload`, {
+      const directResponse = await fetch(`${import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/upload`, {
         method: 'POST',
         body: simpleFormData,
         headers: {

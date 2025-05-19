@@ -184,7 +184,7 @@ const UrgentSalesMinimal = () => {
       console.log('Request body with dynamic seller ID:', JSON.stringify(submitData));
       
       // Make direct API call
-      const apiUrl = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/urgent-sales`;
+      const apiUrl = `${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/urgent-sales`;
       console.log('Sending request to:', apiUrl);
       
       try {

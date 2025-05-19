@@ -107,7 +107,7 @@ const ImageWithFallback = ({ src, alt, style, token, ...props }) => {
       return;
     }
     
-    // Extract data URL from malformed URLs (like http://localhost:5001/data:image/...)
+    // Extract data URL from malformed URLs (like http://https://fresh-connect-backend.onrender.com/data:image/...)
     if (typeof src === 'string' && src.includes('data:image/')) {
       const match = src.match(/(data:image\/[^;]+;base64,[a-zA-Z0-9+/=]+)/);
       if (match) {
@@ -145,9 +145,9 @@ const ImageWithFallback = ({ src, alt, style, token, ...props }) => {
     if (src && typeof src === 'string' && !src.startsWith('blob:') && !src.startsWith('http')) {
       // If it's a relative path, assume it's from the backend API
       if (src.startsWith('/')) {
-        setProcessedSrc(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}${src}`);
+        setProcessedSrc(`${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}${src}`);
       } else {
-        setProcessedSrc(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/${src}`);
+        setProcessedSrc(`${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}/${src}`);
       }
       console.log('Processed non-data URL:', processedSrc);
     } else {

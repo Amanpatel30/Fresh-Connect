@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance with default config
 const api = axios.create({
-  baseURL: (import.meta.env.VITE_BASE_URL || 'http://localhost:5001'),
+  baseURL: (import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'),
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
@@ -353,7 +353,7 @@ export const checkAuthStatusDirect = async () => {
     
     // Create a direct axios instance for this request
     const authCheckInstance = axios.create({
-      baseURL: import.meta.env.VITE_BASE_URL || 'http://localhost:5001',
+      baseURL: import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com',
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'

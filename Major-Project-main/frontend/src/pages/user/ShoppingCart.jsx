@@ -388,7 +388,7 @@ const ShoppingCart = () => {
                         (typeof item.product.image === 'string' ? item.product.image : null) || // If image is a string
                         (item.product.images && item.product.images.length > 0 ? 
                           (item.product.images[0].url || item.product.images[0]) : null) || // Images array
-                        `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/products/image/${item.product._id}` // API fallback
+                        `${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/products/image/${item.product._id}` // API fallback
                       }
                       alt={item.product.name || 'Product'}
                       onLoad={() => console.log(`Image loaded successfully for product ${item.product._id} from cart`)}

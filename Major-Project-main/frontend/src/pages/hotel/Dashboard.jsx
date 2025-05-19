@@ -20,7 +20,7 @@ const Dashboard = () => {
         console.log('User ID from localStorage:', storedUserId);
         
         const response = await axios.get(
-          `${import.meta.env.VITE_BASE_URL || 'http://localhost:5001'}/api/dashboard/stats`,
+          `${import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/dashboard/stats`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -95,7 +95,7 @@ const Dashboard = () => {
             dashboardData,
             weeklySales: dashboardData?.weeklySales,
             token: localStorage.getItem('token'),
-            baseUrl: import.meta.env.VITE_BASE_URL || 'http://localhost:5001'
+            baseUrl: import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'
           }, null, 2)}
         </pre>
       </div>

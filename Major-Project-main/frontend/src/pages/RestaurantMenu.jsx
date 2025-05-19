@@ -46,11 +46,11 @@ const getRestaurantById = async (id) => {
       console.log('Special restaurant detected - fetching menu items from database');
       
       // First get restaurant details
-      const restaurantResponse = await axios.get(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001'}/api/hotels/${id}`);
+      const restaurantResponse = await axios.get(`${import.meta.env.VITE_API_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/hotels/${id}`);
       
       // Then fetch menu items specifically for this restaurant
       try {
-        const menuItemsResponse = await axios.get(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001'}/api/menu-items/hotel/${id}`);
+        const menuItemsResponse = await axios.get(`${import.meta.env.VITE_API_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/menu-items/hotel/${id}`);
         
         console.log('Menu items API response:', menuItemsResponse.data);
         
@@ -87,7 +87,7 @@ const getRestaurantById = async (id) => {
     }
     
     // Try to get data from API
-    const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001'}/api/hotels/${id}`);
+    const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/hotels/${id}`);
     
     if (response.data && response.data.data) {
       console.log('Restaurant data fetched successfully:', response.data.data.name);
@@ -675,7 +675,7 @@ const RestaurantMenu = () => {
       for (const item of menuItems) {
         try {
           const response = await axios.post(
-            `${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001'}/api/menu-items`, 
+            `${import.meta.env.VITE_API_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/menu-items`, 
             item,
             { 
               headers: { 

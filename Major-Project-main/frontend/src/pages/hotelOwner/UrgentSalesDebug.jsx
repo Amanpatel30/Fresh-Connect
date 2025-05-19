@@ -59,9 +59,9 @@ const ImageWithFallback = ({ src, alt, style, ...props }) => {
   if (src && !src.startsWith('blob:') && !src.startsWith('data:') && !src.startsWith('http')) {
     // If it's a relative path, assume it's from the backend API
     if (src.startsWith('/')) {
-      processedSrc = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}${src}`;
+      processedSrc = `${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}${src}`;
     } else {
-      processedSrc = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/${src}`;
+      processedSrc = `${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}/${src}`;
     }
   }
 
@@ -905,7 +905,7 @@ const UrgentSalesDebug = () => {
       console.log("- Category field:", productData.category !== undefined ? "✓" : "✗");
       
       // Direct API call without any intermediate functions
-      const apiUrl = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/urgent-sales`;
+      const apiUrl = `${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/urgent-sales`;
       const method = dialogMode === 'create' ? 'POST' : 'PUT';
       const endpoint = dialogMode === 'create' ? apiUrl : `${apiUrl}/${selectedSale?._id}`;
       
@@ -1091,7 +1091,7 @@ const UrgentSalesDebug = () => {
       console.log("DIRECT MONGO SCHEMA REQUEST:", directMongoObject);
       
       // Direct API call 
-      const apiUrl = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/urgent-sales`;
+      const apiUrl = `${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/urgent-sales`;
       const authHeader = token.startsWith('Bearer ') ? token : `Bearer ${token}`;
       
       // Log the exact data being sent to MongoDB

@@ -5,7 +5,7 @@ import axios from 'axios';
 const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2U4M2U2YjQ5Y2Q4ZmU5Mjk3YTc1MyIsImlhdCI6MTY5MzAyMDYxMSwiZXhwIjoxNjk1NjEyNjExfQ.NzhfN8xxWwz8d2_lLXYVmnmJ5hHwIKUUGZQ-ZSOK-n8';
 
 // API URL
-const API_BASE_URL = 'http://localhost:5001';
+const API_BASE_URL = 'http://https://fresh-connect-backend.onrender.com';
 
 // Function to create a delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));

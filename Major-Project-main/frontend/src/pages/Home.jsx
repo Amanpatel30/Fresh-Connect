@@ -97,7 +97,7 @@ const Home = () => {
               
               // Try a direct API call as fallback
               try {
-                const directResponse = await axios.get('http://localhost:5001/api/urgent-sales');
+                const directResponse = await axios.get('http://https://fresh-connect-backend.onrender.com/api/urgent-sales');
                 console.log('Direct API call response:', directResponse);
                 
                 if (directResponse.data && 

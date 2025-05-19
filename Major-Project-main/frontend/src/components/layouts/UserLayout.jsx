@@ -65,7 +65,7 @@ export const uploadFile = async (file, type = 'image', category = 'profile') => 
       try {
         console.log(`Trying endpoint: ${endpoint}`);
         // Use fetch API directly for more control
-        const response = await fetch(`${import.meta.env.VITE_BASE_URL || 'http://localhost:5001'}${endpoint}`, {
+        const response = await fetch(`${import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}${endpoint}`, {
           method: 'POST',
           body: formData,
           headers: {

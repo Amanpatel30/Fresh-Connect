@@ -276,7 +276,7 @@ const ProfileDashboard = () => {
     console.log(`Using token (${token.length} chars): ${token.substring(0, 10)}...`);
     
     try {
-      const response = await fetch('http://localhost:5001/api/upload', {
+      const response = await fetch('http://https://fresh-connect-backend.onrender.com/api/upload', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -1113,7 +1113,7 @@ const ProfileDashboard = () => {
                         
                         // Test upload immediately
                         try {
-                          fetch('http://localhost:5001/api/check-auth', {
+                          fetch('http://https://fresh-connect-backend.onrender.com/api/check-auth', {
                             headers: {
                               'Authorization': `Bearer ${token}`
                             }

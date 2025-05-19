@@ -20,7 +20,7 @@ const ProfileImage = ({ onImageUpload, size = 120, editable = true }) => {
       // Try to get a new token
       try {
         // Make a request to refresh the token - adjust this endpoint to match your API
-        const response = await fetch(`${import.meta.env.VITE_BASE_URL || 'http://localhost:5001'}/api/users/token/refresh`, {
+        const response = await fetch(`${import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/users/token/refresh`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -81,7 +81,7 @@ const ProfileImage = ({ onImageUpload, size = 120, editable = true }) => {
       
       // Make a simpler fetch request with only essential parameters
       try {
-        const response = await fetch('http://localhost:5001/api/upload', {
+        const response = await fetch('http://https://fresh-connect-backend.onrender.com/api/upload', {
           method: 'POST',
           headers: {
             'Authorization': `Bearer ${token}`

@@ -60,7 +60,7 @@ const ImageWithFallback = ({ src, alt, style, ...props }) => {
       return src;
     }
     
-    const baseUrl = import.meta.env.VITE_BASE_URL || 'http://localhost:5001';
+    const baseUrl = import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com';
     
     // Extract the filename from the URL if it contains one
     if (src.includes('/api/products/image/')) {

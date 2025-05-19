@@ -103,7 +103,7 @@ const validateAndFixImageUrl = (imageUrl) => {
       return imageUrl;
     }
     
-    // Extract data URL from malformed URLs (like http://localhost:5001/data:image/...)
+    // Extract data URL from malformed URLs (like http://https://fresh-connect-backend.onrender.com/data:image/...)
     if (imageUrl.includes('data:image/')) {
       const match = imageUrl.match(/(data:image\/[^;]+;base64,[a-zA-Z0-9+/=]+)/);
       if (match) {
@@ -113,7 +113,7 @@ const validateAndFixImageUrl = (imageUrl) => {
     
     // If it's a server-relative path, convert it to absolute URL
     if (imageUrl.startsWith('/')) {
-      return `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}${imageUrl}`;
+      return `${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}${imageUrl}`;
     }
   }
   
@@ -1882,7 +1882,7 @@ const UrgentSales = () => {
             const token = localStorage.getItem('token');
             if (!token) throw new Error('Authentication required');
             
-            const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/urgent-sales/${saleId}`, {
+            const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/urgent-sales/${saleId}`, {
               method: 'DELETE',
               headers: {
                 'Authorization': `Bearer ${token}`,

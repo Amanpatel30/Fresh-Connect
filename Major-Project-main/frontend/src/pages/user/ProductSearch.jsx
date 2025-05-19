@@ -125,7 +125,7 @@ const ProductSearch = () => {
   const fetchProducts = async () => {
     setLoading(true);
     try {
-      const response = await axios.get(`${import.meta.env.VITE_BASE_URL || 'http://localhost:5001'}/api/products`);
+      const response = await axios.get(`${import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/products`);
       
       let productData = [];
       if (response.data?.products) {
@@ -346,7 +346,7 @@ const ProductSearch = () => {
     
     // If product has image ID, construct URL to fetch from API
     if (product._id) {
-      return `${import.meta.env.VITE_BASE_URL || 'http://localhost:5001'}/api/products/image/${product._id}`;
+      return `${import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/products/image/${product._id}`;
     }
     
     // Fallback to placeholder

@@ -15,7 +15,7 @@ export const uploadImage = async (file) => {
     console.log('⭐ Starting image upload...');
     
     const response = await axios.post(
-      `${import.meta.env.VITE_BASE_URL || 'http://localhost:5001'}/api/upload`,
+      `${import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com'}/api/upload`,
       formData,
       {
         headers: {
@@ -59,7 +59,7 @@ export const uploadImage = async (file) => {
     if (imageUrl) {
       // If URL contains a filename but doesn't use our file endpoint format
       if (imageUrl.includes('/api/products/image/') && !imageUrl.includes('/file/')) {
-        const baseUrl = import.meta.env.VITE_BASE_URL || 'http://localhost:5001';
+        const baseUrl = import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com';
         const filename = imageUrl.split('/').pop();
         if (filename) {
           // Convert to proper file endpoint format
@@ -70,7 +70,7 @@ export const uploadImage = async (file) => {
       
       // Ensure the URL is absolute
       if (!imageUrl.startsWith('http')) {
-        const baseUrl = import.meta.env.VITE_BASE_URL || 'http://localhost:5001';
+        const baseUrl = import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com';
         imageUrl = `${baseUrl}${imageUrl.startsWith('/') ? '' : '/'}${imageUrl}`;
       }
       

@@ -52,7 +52,7 @@ import {
 } from '@mui/icons-material';
 
 // API base URL
-const API_URL = 'http://localhost:5001/api/complaints';
+const API_URL = 'http://https://fresh-connect-backend.onrender.com/api/complaints';
 
 // Fallback data in case API fails
 const FALLBACK_COMPLAINTS = [

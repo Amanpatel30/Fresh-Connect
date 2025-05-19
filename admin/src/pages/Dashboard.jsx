@@ -47,11 +47,11 @@ import {
 } from '@mui/icons-material';
 
 // API URLs
-const USERS_API_URL = 'http://localhost:5001/api/users';
-const URGENT_SALES_API_URL = 'http://localhost:5001/api/listings/urgent';
-const FREE_FOOD_API_URL = 'http://localhost:5001/api/listings/free';
-const VERIFICATION_API_URL = 'http://localhost:5001/api/verifications';
-const STATS_API_URL = 'http://localhost:5001/api/admin/dashboard';
+const USERS_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/users';
+const URGENT_SALES_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/listings/urgent';
+const FREE_FOOD_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/listings/free';
+const VERIFICATION_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/verifications';
+const STATS_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/admin/dashboard';
 
 // Retry mechanism for API calls
 const fetchWithRetry = async (url, options = {}, retries = 3, delay = 1000) => {

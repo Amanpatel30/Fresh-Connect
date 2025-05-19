@@ -11,7 +11,7 @@ process.env.MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/
 process.env.JWT_SECRET = process.env.JWT_SECRET || 'freshconnect_secure_jwt_secret_key_2025';
 
 // Force port 5001
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 
 // Debug logging
 console.log('Environment variables loaded:');

@@ -142,7 +142,7 @@ router.post('/profile', protect, (req, res) => {
       });
 
       // Convert local path to URL format for client access
-      const serverUrl = process.env.BACKEND_URL || 'http://localhost:5001';
+      const serverUrl = process.env.BACKEND_URL || 'http://https://fresh-connect-backend.onrender.com';
       const relativePath = req.file.path.replace(/\\/g, '/').split('uploads/')[1];
       const imageUrl = `${serverUrl}/uploads/${relativePath}`;
 
@@ -228,7 +228,7 @@ router.post('/', protect, (req, res) => {
       });
 
       // Convert local path to URL format for client access
-      const serverUrl = process.env.BACKEND_URL || 'http://localhost:5001';
+      const serverUrl = process.env.BACKEND_URL || 'http://https://fresh-connect-backend.onrender.com';
       const relativePath = req.file.path.replace(/\\/g, '/').split('uploads/')[1];
       const fileUrl = `${serverUrl}/uploads/${relativePath}`;
 

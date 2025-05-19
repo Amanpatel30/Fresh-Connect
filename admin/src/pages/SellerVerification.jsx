@@ -993,7 +993,7 @@ const SellerVerification = () => {
                 </Typography>
                 <Typography variant="body2">
                   Cannot connect to the database. The API server is not responding. Please verify that your backend server 
-                  is running at http://localhost:5001. This page only displays data directly from the MongoDB database.
+                  is running at http://https://fresh-connect-backend.onrender.com. This page only displays data directly from the MongoDB database.
                 </Typography>
               </Box>
               <Button 

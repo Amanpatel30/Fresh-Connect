@@ -50,7 +50,7 @@ import {
   Spa as EcoIcon
 } from '@mui/icons-material';
 
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_BASE_URL = 'http://https://fresh-connect-backend.onrender.com/api';
 
 const SystemSettings = () => {
   const location = useLocation();

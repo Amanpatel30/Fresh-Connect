@@ -277,7 +277,7 @@
   "password": "$2a$10$p0fC/FlIA8.F5vWou0umtOo4cri0PzsbvJRz5V9IqKFNrefC/6yXC",
   "phone": "9978355810",
   "role": "user",
-  "avatar": "http://localhost:5001/api/products/image/file/image-1742189481881-367625638.png",
+  "avatar": "http://https://fresh-connect-backend.onrender.com/api/products/image/file/image-1742189481881-367625638.png",
   "notificationSettings": {
     "emailNotifications": true,
     "orderUpdates": true,

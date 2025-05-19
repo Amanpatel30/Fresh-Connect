@@ -11,7 +11,7 @@ const UserList = () => {
         const fetchUsers = async () => {
             try {
                 setLoading(true);
-                const response = await axios.get('http://localhost:5001/api/users');
+                const response = await axios.get('http://https://fresh-connect-backend.onrender.com/api/users');
                 setUsers(response.data);
                 setError(null);
             } catch (err) {
@@ -44,7 +44,7 @@ const UserList = () => {
                 {users.map((user) => (
                     <div key={user._id} className="user-item">
                         <img 
-                            src={`http://localhost:5001/api/users/image/${user._id}`} 
+                            src={`http://https://fresh-connect-backend.onrender.com/api/users/image/${user._id}`} 
                             alt={user.name}
                         />
                         <p>Name: {user.name}</p>

@@ -44,10 +44,10 @@ import {
 } from '@mui/icons-material';
 
 // API URLs
-const REPORTS_API_URL = 'http://localhost:5001/api/reports';
-const SALES_API_URL = 'http://localhost:5001/api/reports/sales';
-const USERS_API_URL = 'http://localhost:5001/api/reports/users';
-const PRODUCTS_API_URL = 'http://localhost:5001/api/reports/products';
+const REPORTS_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/reports';
+const SALES_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/reports/sales';
+const USERS_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/reports/users';
+const PRODUCTS_API_URL = 'http://https://fresh-connect-backend.onrender.com/api/reports/products';
 
 // Function to test API connection
 const testReportsAPI = async () => {

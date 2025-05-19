@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance with default config
 const api = axios.create({
-  baseURL: import.meta.env.VITE_BASE_URL || 'http://localhost:5001/api',
+  baseURL: import.meta.env.VITE_BASE_URL || 'http://https://fresh-connect-backend.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },

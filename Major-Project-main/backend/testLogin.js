@@ -9,7 +9,7 @@ async function testLogin() {
   try {
     console.log('Testing login with credentials:', testCredentials);
     
-    const response = await fetch('http://localhost:5001/api/hotels/login', {
+    const response = await fetch('http://https://fresh-connect-backend.onrender.com/api/hotels/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

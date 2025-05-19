@@ -94,7 +94,7 @@ JWT_SECRET=your_jwt_secret_key_here
 
 Frontend (.env):
 ```
-VITE_BASE_URL=http://localhost:5001/api
+VITE_BASE_URL=http://https://fresh-connect-backend.onrender.com/api
 ```
 
 ## 📜 Available Scripts

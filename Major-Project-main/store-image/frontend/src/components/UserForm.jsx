@@ -43,10 +43,10 @@ const UserForm = () => {
             formDataToSend.append('image', formData.image);
 
             // First test the server connection
-            await axios.get('http://localhost:5001/api/test', { timeout: 3000 });
+            await axios.get('http://https://fresh-connect-backend.onrender.com/api/test', { timeout: 3000 });
 
             // If server is reachable, submit the form
-            await axios.post('http://localhost:5001/api/users', formDataToSend, {
+            await axios.post('http://https://fresh-connect-backend.onrender.com/api/users', formDataToSend, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 },
